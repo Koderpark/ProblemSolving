@@ -5,7 +5,7 @@ int main(){
 	scanf("%d", &k);
 	for(int i=0; i<k; i++) scanf("%d", &arr[i]);
 	for(int i=0; i<2*k; i++){
-		printf("%d", arr[i%k]);
+		printf("%d\n", arr[i%k]);
 	}
 	return 0;
 }
