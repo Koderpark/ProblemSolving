@@ -14,18 +14,19 @@ int main()
 	
 	j=b+1;
 	i=a;
+	n=a*b;
 	
 	while(a>0){
 		s*=-1;
       	for(int p=1;p<=b;p++){
          	j+=s;
-        	arr[i][j]=++n;
+        	arr[i][j]=n--;
       	}
       	a--;
       	if(b>0){
       		for(int p=1;p<=a;p++){
            		i+=s;
-            	arr[i][j]=++n;
+            	arr[i][j]=n--;
         	}
       	}
       	b--;
