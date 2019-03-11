@@ -1,15 +1,13 @@
-
-#include <math.h>
-
-long long int f(long long int r)
-{    
-	long long int tmp=0;
-	int sum=0;
-
-	for(long long int i=r; i!=0; i/=10, sum++);
-    for(--sum;r!=0;r/=10,sum--) tmp+=r%10*pow(10 , sum);
-    
-	return tmp;
+unsigned long long int f(long long int r){   
+	unsigned long long int sum = 0;
+	unsigned long long int i;
+	
+    for(r=0;n!=0;n/=10)
+    {
+    	i=1;
+    	while(n >= i)	i*=10;
+        r=n%10;
+        sum+=r*(i/10);
+    }
+	return sum;
 }
-
-
