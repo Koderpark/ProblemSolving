@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 
 int f(int a){
@@ -13,10 +12,11 @@ int f(int a){
 }
 
 int main(){
-	int n;
+	int n;	
+	int t;
 	scanf("%d", &n);
-	
-	printf("%d", f(n));
-	
-	return 0;
+	for(int i=0; i<n; i++){
+		scanf("%d", &t);
+		printf("%d\n", f(t));
+	}
 }
