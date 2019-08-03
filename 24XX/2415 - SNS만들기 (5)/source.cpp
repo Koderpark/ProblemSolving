@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <string.h>
 
-char arr[150][3000] = {0};
-char *text;
-char find[3000] = {0};
+char arr[151][10000] = {0};
+char* text;
+char find[10000] = {0};
 
 int main(){
 	int n;
@@ -15,9 +15,10 @@ int main(){
 		if(!strcmp(text, find)){
 			text = strtok(NULL, ",");
 			text = strtok(NULL, ",");
+			text = strtok(NULL, ",");
 			while(text != NULL){
-				text = strtok(NULL, ",");
 				puts(text);
+				text = strtok(NULL, ",");
 			}
 		}
 	}
