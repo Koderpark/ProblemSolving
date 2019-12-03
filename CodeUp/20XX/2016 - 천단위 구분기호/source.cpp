@@ -1,22 +1,15 @@
 #include <stdio.h>
-#include <queue>
+#include <string.h>
 
-using namespace std;
+char num[101] = {0};
 
 int main(){
-	int n;
-	char c;
-	queue<char> q;
-	
-	scanf("%d", &n);
-	for(int i=0; i<=n; i++){
-		scanf("%c", &c);
-		q.push(c);
+	int l;
+	scanf("%d", &l); 
+	scanf("%s", num);
+	for(int i=0; i<l; i++){
+		if((l-i)%3==0 && i!=0) printf(",");
+		printf("%c", num[i]);
 	}
-	for(int i=0; i<=n; i++){
-		if((n-i+1)%3 == 0) printf(",");
-		printf("%c", q.front());
-		q.pop();
-	}
-	
+	return 0;
 }
