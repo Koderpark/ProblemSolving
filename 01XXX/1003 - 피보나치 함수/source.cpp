@@ -1,23 +1,22 @@
 #include <stdio.h>
 
-int zero=0;
-int one=0;
-
-int fibonacci(int n) {
-    if (n == 0)zero++;
-	if (n == 1)one++;
-	if(n==0||n==1) return n;
-    return fibonacci(n-1) + fibonacci(n-2);
-}
+int zero[41] = {0};
+int one[41] = {0};
 
 int main(){
-	int t,n;
+	zero[0] = 1;
+	zero[1] = 0;
+	one[0] = 0;
+	one[1] = 1;
+	for(int i=2; i<=40; i++){
+		zero[i] = zero[i-1] + zero[i-2];
+		one[i]  = one[i-1]  + one[i-2];
+	}
+	int n,t;
 	scanf("%d", &t);
 	for(int i=0; i<t; i++){
-		zero = one = 0;
 		scanf("%d", &n);
-		fibonacci(n);
-		printf("%d %d\n", zero,one);
+		printf("%d %d\n", zero[n], one[n]);
 	}
 	return 0;
 }
