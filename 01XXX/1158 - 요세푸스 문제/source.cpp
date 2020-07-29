@@ -1,19 +1,17 @@
 #include <stdio.h>
 
-int check[5001] = {0};
+
 
 int main(){
-	int n,k;
-	int sum=0;
-	scanf("%d %d", &n ,&k);
+	int n,k,sum=0;
+	scanf("%d %d", &n, &k);
+	printf("<");
 	for(int i=0; i<n; i++){
-		for(int j=0; j<k; j++){
-			sum++;
-			if(check[sum] == 1) continue;
-			if(j == n-i+1) sum=1;
-		}
-		printf("%d ", sum);
-		check[sum] = 1;
+		sum += k;
+		printf("%d", (sum-(sum/n))%n);
+		if(i != n-1) printf(", ");
 	}
+	printf(">");
+	
 	return 0;
 }
