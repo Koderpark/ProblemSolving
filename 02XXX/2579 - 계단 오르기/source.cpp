@@ -1,20 +1,19 @@
 #include <stdio.h>
-#define MAX(a, b) (((a) > (b)) ? (a) : (b))
 
-int arr[301] = {0};
-int n;
-
-int f(int k, int time, int score){
-	score+=arr[k];
-	if(k > n) return 0;
-	if(k == n) return score;
-	
-	if(time==3) return f(k+2, 0, score);
-	else return MAX(f(k+1, time+1, score),f(k+2,0,score));
-}
+int max(int a, int b){ return a>b?a:b; }
 
 int main(){
+	int n;
+	int input[301], dp[301] = {0};
 	scanf("%d", &n);
-	for(int i=1; i<=n; i++) scanf("%d", &arr[i]);
-	printf("%d", f(n,0,0));
+	for(int i=1; i<=n; i++) scanf("%d", &input[i]);
+	
+	
+	dp[1] = input[1];
+	dp[2] = dp[1] + input[2]; // max(0, dp[1])의 결과는 항상 dp[1]이므로 생략 
+	for(int i=3; i<=n; i++){
+		dp[i] = input[i] + max(input[i-1]+dp[i-3], dp[i-2]); 
+	}
+	printf("%d", dp[n]);
+	return 0;
 }
