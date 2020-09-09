@@ -1,18 +1,21 @@
 #include <stdio.h>
+typedef long long int ll;
 
-long long int nCr(int a, int b){
-	long long int n=1; 
-	for(int i=b; i>=b-a+1; i--) n=n*i;
-	for(int j=a; j>=1; j--) n=n/j; 
-	return(n);
+ll nCr(ll n, ll r){
+	ll sum = 1;
+	for(int i=0; i<r;  i++){
+		sum*=(n-i);
+		sum/=(i+1);
+	}
+	return sum;
 }
 
 int main(){
-	int t,a,b;
-	scanf("%d",&t);
-	for(int i=0; i<t; i++){
-		scanf("%d %d",&a, &b);
-		printf("%lld\n", nCr(a,b));
+	int n,m,t;
+	scanf("%d", &t);
+	while(t--){
+		scanf("%d %d", &n, &m);
+		printf("%lld\n", nCr(m,n));
 	}
 	return 0;
 }
