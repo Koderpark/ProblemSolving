@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-//////// 복붙 아니에요 ////////
+//////// I solved it myself!!! ////////
 // 0line - 1
 // 1line - 1 1
 // 2line - 1 0 1
@@ -11,7 +11,7 @@
 // 7line - 1 1 1 1 1 1 1 1
 // 8line - 1 0 0 0 0 0 0 0 1
 
-//2line, 4line, 8line -> kline = 1 + 0 * (k-1) + 1 형태. 
+//2line, 4line, 8line -> kline = 1 + 0 * (k-1) + 1.
 
 int arr[1000000];
 int tmp[1000000];
