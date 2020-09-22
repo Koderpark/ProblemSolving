@@ -5,6 +5,7 @@ typedef long long int ll;
 ll ramen[1000010] = {0};
 ll cost=0;
 ll n,b,c;
+ll t;
 
 ll min(ll a, ll b){return a>b?b:a;}
 
@@ -28,18 +29,35 @@ void one(ll k){ cost+=b*ramen[k]; }
 
 int main(){
 	scanf("%lld %lld %lld", &n, &b, &c);
+	if(b<c) c=b;
 	for(int i=0; i<n; i++) scanf("%lld", &ramen[i]);
 	for(int i=0; i<n; i++){
 		if(ramen[i+1] > ramen[i+2]){
-			ll k = min(ramen[i],ramen[i+1]-ramen[i+2]);
-			ramen[i]-=k;
-			ramen[i+1]-=k;
-			cost+=(b+c)*k;
+			t = min(ramen[i],ramen[i+1]-ramen[i+2]);
+			ramen[i]-=t;
+			ramen[i+1]-=t;
+			cost+=(b+c)*t;
 			
-			three(i);
-			one(i);
+			t = min(ramen[i],min(ramen[i+1], ramen[i+2]));
+			ramen[i]-=t;
+			ramen[i+1]-=t;
+			ramen[i+2]-=t;
+			cost+=(b+c+c)*t;
 		}
-		else { three(i); two(i); one(i); }
+		else{
+			t = min(ramen[i],min(ramen[i+1], ramen[i+2]));
+			ramen[i]-=t;
+			ramen[i+1]-=t;
+			ramen[i+2]-=t;
+			cost+=(b+c+c)*t;
+			
+		 	t = min(ramen[i],ramen[i+1]);
+			ramen[i]-=t;
+			ramen[i+1]-=t;
+			cost+=(b+c)*t;
+		}
+		cost+=b*ramen[i];
+		ramen[i] = 0;
 	}
 	printf("%lld", cost);
 	return 0;
