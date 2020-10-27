@@ -1,19 +1,22 @@
 #include <stdio.h>
-#include <math.h>
 
-int arr[101] = {0};
+int black[110];
+int max(int a, int b){return a>b?a:b;}
 
 int main(){
-	int n,m,tmp,best=-1;
-	scanf("%d %d", &n, &m);
-	for(int i=0; i<n; i++) scanf("%d", &arr[i]);
-	int min=999999;
+	int n,m;
+	int ans;
+	int sum;
 	
-	for(int i=0; i<n; i++) for(int j=0; j<n; j++) for(int k=0; k<n; k++){
-		if(i==j || j==k || i==k) continue;
-		tmp = arr[i]+arr[j]+arr[k];
-		if(m>=tmp && best<tmp) best = tmp;
+	scanf("%d %d", &n, &m);
+	for(int i=0; i<n; i++) scanf("%d", &black[i]);
+	for(int i=0; i<n; i++){
+		for(int j=i+1; j<n; j++){
+			for(int k=j+1; k<n; k++){
+				sum = black[i]+black[j]+black[k];
+				if(sum <= m) ans = max(ans, sum);
+			}
+		}
 	}
-	printf("%d", best);
-	return 0;
+	printf("%d", ans);
 }
