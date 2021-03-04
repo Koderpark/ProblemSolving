@@ -1,19 +1,29 @@
-#include <stdio.h>
+#include <bits/stdc++.h>
+#define MOD 1000000000
+using namespace std;
 
-int dp[101][11] = {0};
-int index(int k){ if(k==-1){return 10;} return k; }
+typedef long long ll;
+
+ll dp[123][12][1<<11];
+ll n,ans = 0;
+
+ll f(ll len, ll now, ll bit){
+	if(0>now || now>9) return 0;
+	
+	if(len == n){
+		if(bit == (1<<10)-1) return 1;
+		else return 0;
+	}
+	
+	if(dp[len][now][bit] != -1) return dp[len][now][bit];
+	dp[len][now][bit] = (f(len+1,now+1,bit|(1<<(now+1))) + f(len+1,now-1,bit|(1<<(now-1)))) % MOD;
+	return dp[len][now][bit];
+}
 
 int main(){
-	int n,sum=0;
-	scanf("%d", &n);
-	for(int i=1; i<10; i++) dp[0][i] = 1;
-	for(int i=0; i<n; i++){
-		for(int j=0; j<10; j++){
-			dp[i+1][index(j+1)] = ( dp[i+1][index(j+1)] + dp[i][j] ) % 1000000000;
-			dp[i+1][index(j-1)] = ( dp[i+1][index(j-1)] + dp[i][j] ) % 1000000000;
-		}
-	}
-	for(int i=0; i<10; i++) sum = (sum+dp[n-1][i])%1000000000;
-	printf("%d", sum);
+	memset(dp, -1, sizeof(dp));
+	scanf("%lld", &n);
+	for(int i=1; i<10; i++) ans = (ans + f(1,i,1<<i)) % MOD;
+	printf("%lld", ans);
 	return 0;
 }
