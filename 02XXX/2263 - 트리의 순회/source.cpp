@@ -1,35 +1,27 @@
-#include <stdio.h>
-#include <vector>
- 
+#include <bits/stdc++.h>
 using namespace std;
 
-int n,r;
-int arr[1000005];
+int in[123456] = {0};
+int post[123456] = {0};
+int idx[123456] = {0};
 
-int pre[1000005];
-int in[1000005];
-
-void post(int s, int e) {
-    if(s == e){ printf("%d ", pre[++r]); return; }
-	else if(s > e) return;
+void func(int as, int ae, int bs, int be){
+	if(as > ae || bs > be) return;
 	
-    int root = pre[++r];
-	int p = arr[root];
-    
-    post(s, p-1);
-    post(p+1, e);
-    printf("%d ", root);
+	int node = post[be];
+	printf("%d ", node);
+	
+	func(as, idx[node]-1, bs, bs+idx[node]-as-1);
+	func(idx[node]+1, ae, bs+idx[node]-as, be-1);
 }
 
-int main() {
-    scanf("%d", &n);
-    
-    for(int i=1;i<=n;i++) {
-        scanf("%d", &in[i]);
-        arr[in[i]] = i;
-    }
-    for(int i=1;i<=n;i++) {
-        scanf("%d", &pre[i]);
-    }
-    post(1, n);
+int main(){
+	int n;
+	scanf("%d", &n);
+	for(int i=1; i<=n; i++) scanf("%d", &in[i]);
+	for(int i=1; i<=n; i++) scanf("%d", &post[i]);
+	for(int i=1; i<=n; i++) idx[in[i]] = i;
+	
+	func(1,n,1,n);
+	return 0;
 }
