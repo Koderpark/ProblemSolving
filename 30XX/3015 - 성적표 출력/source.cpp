@@ -1,33 +1,33 @@
-#include <stdio.h>
+#include <bits/stdc++.h>
+using namespace std;
 
-struct p1{
-	char name[11];
+struct student{
 	int score;
+	int num;
+	string name;
 };
 
-struct p1 person[101];
+bool cmp(student a, student b){
+	if(a.score != b.score) return a.score > b.score;
+	return a.num < b.num;
+}
+
+vector<student> v;
 
 int main(){
 	int n,m;
-	int min;
+	int a;
+	string s;
 	scanf("%d %d", &n, &m);
-	
 	for(int i=0; i<n; i++){
-		scanf("%s %d", &person[i].name, &person[i].score);
+		cin >> s >> a;
+		v.push_back({a,i,s});
 	}
 	
-	for(int i=0; i<n; i++){
-		for(int j=0; j<n; j++){
-			if(person[i].score >= person[j].score){
-				person[101] = person[j];
-				person[j] = person[i];
-				person[i] = person[101];
-			}
-		}
-	}
+	sort(v.begin(), v.end(), cmp);
 	
-	for(int i=0; i<m; i++, puts("")){
-		printf("%s", person[i].name);
+	for(int i=0; i<m; i++){
+		cout << v[i].name << "\n";
 	}
 	return 0;
 }

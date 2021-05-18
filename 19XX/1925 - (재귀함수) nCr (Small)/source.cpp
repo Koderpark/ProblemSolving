@@ -1,14 +1,18 @@
-#include <stdio.h>
+#include <bits/stdc++.h>
+using namespace std;
+typedef long long int ll;
 
-int fact(int n, long long int sum=1){
-	if(!n) return sum;
-	sum*=n;
-	return fact(--n,sum);
+int dp[31][31] = {0};
+
+ll nCr(int n, int r){
+	if(n==r || r==0) return dp[n][r] = 1;
+	if(dp[n][r] != 0) return dp[n][r];
+	return dp[n][r] = nCr(n-1,r-1) + nCr(n-1,r);
 }
 
 int main(){
 	int n,r;
-	scanf("%d %d", &n, &r);
-	printf("%lld", fact(n) / fact(n-r) / fact(r));
+	scanf("%d %d", &n,&r);
+	printf("%lld", nCr(n,r));
 	return 0;
 }

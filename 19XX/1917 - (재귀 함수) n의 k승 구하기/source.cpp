@@ -1,17 +1,18 @@
-#include <stdio.h>
-int time;
-int sum;
-long long int n = 1;
+#include <bits/stdc++.h>
+using namespace std;
 
-long long int f(){
-	if(sum == 0) return 1;
-	if(sum == 1 || sum == -1) return time % 2 && sum == -1 ? -1 : 1; 
-	n *= sum;
-	if(time-- == 1) return n;
-	return f();
+long long int f(int n, int k){
+	if(k==1) return n;
+	if(k==0) return 1;
+	if(k% 2) return n*f(n,k-1);
+	
+	long long int tmp = f(n,k/2);
+	return tmp*tmp;
 }
 
 int main(){
-	scanf("%d %d", &sum, &time);
-	printf("%lld", f());
+	int n,k;
+	scanf("%d %d", &n, &k);
+	printf("%lld", f(n,k));
+	return 0;
 }
