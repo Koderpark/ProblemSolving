@@ -1,25 +1,26 @@
-#include <stdio.h>
-#include <set>
-
+#include <bits/stdc++.h>
 using namespace std;
 
-multiset<int> ms;
+priority_queue<int> maxpq;
+priority_queue<int, vector<int>, greater<int>> minpq;
 
 int main(){
-	int n;
-	int tmp;
-	auto it = ms.begin();
-	
+	int n,k;
 	scanf("%d", &n);
 	for(int i=0; i<n; i++){
-		scanf("%d", &tmp);
-		ms.insert(tmp);
-		if(tmp < *it) it--;
-		else if(tmp > *it) it++;
+		scanf("%d", &k);
 		
-		if(i%2==1){ it--; printf("=%d=", *it); it++; }
-		else 			  printf("=%d=", *it);
-		for(auto j=ms.begin(); j!=ms.end(); j++) printf("%d ", *j);
-	}
+		if(maxpq.size() <= minpq.size()) maxpq.push(k);
+		else                             minpq.push(k);
+		
+		if(!maxpq.empty() && !minpq.empty() && maxpq.top()>minpq.top()){
+			int tmp1 = maxpq.top(); maxpq.pop();
+			int tmp2 = minpq.top(); minpq.pop();
+			
+			maxpq.push(tmp2);
+			minpq.push(tmp1);
+		}
+		printf("%d\n", maxpq.top());
+	}	
 	return 0;
 }
