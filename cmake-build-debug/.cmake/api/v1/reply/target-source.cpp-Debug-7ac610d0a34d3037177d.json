@@ -1,0 +1,5718 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "source.cpp"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 17,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk"
+				},
+				{
+					"fragment" : "-std=gnu++2a"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "20"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				111,
+				112,
+				113,
+				114,
+				115,
+				116,
+				117,
+				118,
+				119,
+				120,
+				121,
+				122,
+				123,
+				124,
+				125,
+				126,
+				127,
+				128,
+				129,
+				130,
+				131,
+				132,
+				133,
+				134,
+				135,
+				136,
+				137,
+				138,
+				139,
+				140,
+				141,
+				142,
+				143,
+				144,
+				145,
+				146,
+				147,
+				148,
+				149,
+				150,
+				151,
+				152,
+				153,
+				154,
+				155,
+				156,
+				157,
+				158,
+				159,
+				160,
+				161,
+				162,
+				163,
+				164,
+				165,
+				166,
+				167,
+				168,
+				169,
+				170,
+				171,
+				172,
+				173,
+				174,
+				175,
+				176,
+				177,
+				178,
+				179,
+				180,
+				181,
+				182,
+				183,
+				184,
+				185,
+				186,
+				187,
+				188,
+				189,
+				190,
+				191,
+				192,
+				193,
+				194,
+				195,
+				196,
+				197,
+				198,
+				199,
+				200,
+				201,
+				202,
+				203,
+				204,
+				205,
+				206,
+				207,
+				208,
+				209,
+				210,
+				211,
+				212,
+				213,
+				214,
+				215,
+				216,
+				217,
+				218,
+				219,
+				220,
+				221,
+				222,
+				223,
+				224,
+				225,
+				226,
+				227,
+				228,
+				229,
+				230,
+				231,
+				232,
+				233,
+				234,
+				235,
+				236,
+				237,
+				238,
+				239,
+				240,
+				241,
+				242,
+				243,
+				244,
+				245,
+				246,
+				247,
+				248,
+				249,
+				250,
+				251,
+				252,
+				253,
+				254,
+				255,
+				256,
+				257,
+				258,
+				259,
+				260,
+				261,
+				262,
+				263,
+				264,
+				265,
+				266,
+				267,
+				268,
+				269,
+				270,
+				271,
+				272,
+				273,
+				274,
+				275,
+				276,
+				277,
+				278,
+				279,
+				280,
+				281,
+				282,
+				283,
+				284,
+				285,
+				286,
+				287,
+				288,
+				289,
+				290,
+				291,
+				292,
+				293,
+				294,
+				295,
+				296,
+				297,
+				298,
+				299,
+				300,
+				301,
+				302,
+				303,
+				304,
+				305,
+				306,
+				307,
+				308,
+				309,
+				310,
+				311,
+				312,
+				313,
+				314,
+				315,
+				316,
+				317,
+				318,
+				319,
+				320,
+				321,
+				322,
+				323,
+				324,
+				325,
+				326,
+				327,
+				328,
+				329,
+				330,
+				331,
+				332,
+				333,
+				334,
+				335,
+				336,
+				337,
+				338,
+				339,
+				340,
+				341,
+				342,
+				343,
+				344,
+				345,
+				346,
+				347,
+				348,
+				349,
+				350,
+				351,
+				352,
+				353,
+				354,
+				355,
+				356,
+				357,
+				358,
+				359,
+				360,
+				361,
+				362,
+				363,
+				364,
+				365,
+				366,
+				367,
+				368,
+				369,
+				370,
+				371,
+				372,
+				373,
+				374,
+				375,
+				376,
+				377,
+				378,
+				379,
+				380,
+				381,
+				382,
+				383,
+				384,
+				385,
+				386,
+				387,
+				388,
+				389,
+				390,
+				391,
+				392,
+				393,
+				394,
+				395,
+				396,
+				397,
+				398,
+				399,
+				400,
+				401,
+				402,
+				403,
+				404,
+				405,
+				406,
+				407,
+				408,
+				409,
+				410,
+				411,
+				412,
+				413,
+				414,
+				415,
+				416,
+				417,
+				418,
+				419,
+				420,
+				421,
+				422,
+				423,
+				424,
+				425,
+				426,
+				427,
+				428,
+				429,
+				430,
+				431,
+				432,
+				433,
+				434,
+				435,
+				436,
+				437,
+				438,
+				439,
+				440,
+				441,
+				442,
+				443,
+				444,
+				445,
+				446,
+				447,
+				448,
+				449,
+				450,
+				451,
+				452,
+				453,
+				454,
+				455,
+				456,
+				457,
+				458,
+				459,
+				460,
+				461,
+				462,
+				463,
+				464,
+				465,
+				466,
+				467,
+				468,
+				469,
+				470,
+				471,
+				472,
+				473,
+				474,
+				475,
+				476,
+				477,
+				478,
+				479,
+				480,
+				481,
+				482,
+				483,
+				484,
+				485,
+				486,
+				487,
+				488,
+				489,
+				490,
+				491,
+				492,
+				493,
+				494,
+				495,
+				496,
+				497,
+				498,
+				499,
+				500,
+				501,
+				502,
+				503,
+				504,
+				505,
+				506,
+				507,
+				508,
+				509,
+				510,
+				511,
+				512,
+				513,
+				514,
+				515,
+				516,
+				517,
+				518,
+				519,
+				520,
+				521,
+				522,
+				523,
+				524,
+				525,
+				526,
+				527,
+				528,
+				529,
+				530,
+				531,
+				532,
+				533,
+				534,
+				535,
+				536,
+				537,
+				538,
+				539,
+				540,
+				541,
+				542,
+				543,
+				544,
+				545,
+				546,
+				547,
+				548,
+				549,
+				550,
+				551,
+				552,
+				553,
+				554,
+				555,
+				556,
+				557,
+				558,
+				559,
+				560,
+				561,
+				562,
+				563,
+				564,
+				565,
+				566,
+				567,
+				568,
+				569,
+				570,
+				571,
+				572,
+				573,
+				574,
+				575,
+				576,
+				577,
+				578,
+				579,
+				580,
+				581,
+				582,
+				583,
+				584,
+				585,
+				586,
+				587,
+				588,
+				589,
+				590,
+				591,
+				592,
+				593,
+				594,
+				595,
+				596,
+				597,
+				598,
+				599,
+				600,
+				601,
+				602,
+				603,
+				604,
+				605,
+				606,
+				607,
+				608,
+				609,
+				610,
+				611,
+				612,
+				613,
+				614,
+				615,
+				616,
+				617,
+				618,
+				619,
+				620,
+				621,
+				622,
+				623,
+				624,
+				625,
+				626,
+				627,
+				628,
+				629,
+				630,
+				631,
+				632,
+				633,
+				634,
+				635,
+				636,
+				637,
+				638,
+				639,
+				640,
+				641,
+				642,
+				643,
+				644,
+				645,
+				646,
+				647,
+				648,
+				649,
+				650,
+				651,
+				652,
+				653,
+				654,
+				655,
+				656,
+				657,
+				658,
+				659,
+				660,
+				661,
+				662,
+				663,
+				664,
+				665,
+				666,
+				667,
+				668,
+				669,
+				670,
+				671,
+				672,
+				673,
+				674,
+				675,
+				676,
+				677,
+				678,
+				679,
+				680,
+				681,
+				682,
+				683,
+				684,
+				685,
+				686,
+				687,
+				688,
+				689,
+				690,
+				691,
+				692,
+				693,
+				694,
+				695,
+				696,
+				697,
+				698,
+				699,
+				700,
+				701,
+				702
+			]
+		}
+	],
+	"id" : "source.cpp::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "source.cpp",
+	"nameOnDisk" : "source.cpp",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				111,
+				112,
+				113,
+				114,
+				115,
+				116,
+				117,
+				118,
+				119,
+				120,
+				121,
+				122,
+				123,
+				124,
+				125,
+				126,
+				127,
+				128,
+				129,
+				130,
+				131,
+				132,
+				133,
+				134,
+				135,
+				136,
+				137,
+				138,
+				139,
+				140,
+				141,
+				142,
+				143,
+				144,
+				145,
+				146,
+				147,
+				148,
+				149,
+				150,
+				151,
+				152,
+				153,
+				154,
+				155,
+				156,
+				157,
+				158,
+				159,
+				160,
+				161,
+				162,
+				163,
+				164,
+				165,
+				166,
+				167,
+				168,
+				169,
+				170,
+				171,
+				172,
+				173,
+				174,
+				175,
+				176,
+				177,
+				178,
+				179,
+				180,
+				181,
+				182,
+				183,
+				184,
+				185,
+				186,
+				187,
+				188,
+				189,
+				190,
+				191,
+				192,
+				193,
+				194,
+				195,
+				196,
+				197,
+				198,
+				199,
+				200,
+				201,
+				202,
+				203,
+				204,
+				205,
+				206,
+				207,
+				208,
+				209,
+				210,
+				211,
+				212,
+				213,
+				214,
+				215,
+				216,
+				217,
+				218,
+				219,
+				220,
+				221,
+				222,
+				223,
+				224,
+				225,
+				226,
+				227,
+				228,
+				229,
+				230,
+				231,
+				232,
+				233,
+				234,
+				235,
+				236,
+				237,
+				238,
+				239,
+				240,
+				241,
+				242,
+				243,
+				244,
+				245,
+				246,
+				247,
+				248,
+				249,
+				250,
+				251,
+				252,
+				253,
+				254,
+				255,
+				256,
+				257,
+				258,
+				259,
+				260,
+				261,
+				262,
+				263,
+				264,
+				265,
+				266,
+				267,
+				268,
+				269,
+				270,
+				271,
+				272,
+				273,
+				274,
+				275,
+				276,
+				277,
+				278,
+				279,
+				280,
+				281,
+				282,
+				283,
+				284,
+				285,
+				286,
+				287,
+				288,
+				289,
+				290,
+				291,
+				292,
+				293,
+				294,
+				295,
+				296,
+				297,
+				298,
+				299,
+				300,
+				301,
+				302,
+				303,
+				304,
+				305,
+				306,
+				307,
+				308,
+				309,
+				310,
+				311,
+				312,
+				313,
+				314,
+				315,
+				316,
+				317,
+				318,
+				319,
+				320,
+				321,
+				322,
+				323,
+				324,
+				325,
+				326,
+				327,
+				328,
+				329,
+				330,
+				331,
+				332,
+				333,
+				334,
+				335,
+				336,
+				337,
+				338,
+				339,
+				340,
+				341,
+				342,
+				343,
+				344,
+				345,
+				346,
+				347,
+				348,
+				349,
+				350,
+				351,
+				352,
+				353,
+				354,
+				355,
+				356,
+				357,
+				358,
+				359,
+				360,
+				361,
+				362,
+				363,
+				364,
+				365,
+				366,
+				367,
+				368,
+				369,
+				370,
+				371,
+				372,
+				373,
+				374,
+				375,
+				376,
+				377,
+				378,
+				379,
+				380,
+				381,
+				382,
+				383,
+				384,
+				385,
+				386,
+				387,
+				388,
+				389,
+				390,
+				391,
+				392,
+				393,
+				394,
+				395,
+				396,
+				397,
+				398,
+				399,
+				400,
+				401,
+				402,
+				403,
+				404,
+				405,
+				406,
+				407,
+				408,
+				409,
+				410,
+				411,
+				412,
+				413,
+				414,
+				415,
+				416,
+				417,
+				418,
+				419,
+				420,
+				421,
+				422,
+				423,
+				424,
+				425,
+				426,
+				427,
+				428,
+				429,
+				430,
+				431,
+				432,
+				433,
+				434,
+				435,
+				436,
+				437,
+				438,
+				439,
+				440,
+				441,
+				442,
+				443,
+				444,
+				445,
+				446,
+				447,
+				448,
+				449,
+				450,
+				451,
+				452,
+				453,
+				454,
+				455,
+				456,
+				457,
+				458,
+				459,
+				460,
+				461,
+				462,
+				463,
+				464,
+				465,
+				466,
+				467,
+				468,
+				469,
+				470,
+				471,
+				472,
+				473,
+				474,
+				475,
+				476,
+				477,
+				478,
+				479,
+				480,
+				481,
+				482,
+				483,
+				484,
+				485,
+				486,
+				487,
+				488,
+				489,
+				490,
+				491,
+				492,
+				493,
+				494,
+				495,
+				496,
+				497,
+				498,
+				499,
+				500,
+				501,
+				502,
+				503,
+				504,
+				505,
+				506,
+				507,
+				508,
+				509,
+				510,
+				511,
+				512,
+				513,
+				514,
+				515,
+				516,
+				517,
+				518,
+				519,
+				520,
+				521,
+				522,
+				523,
+				524,
+				525,
+				526,
+				527,
+				528,
+				529,
+				530,
+				531,
+				532,
+				533,
+				534,
+				535,
+				536,
+				537,
+				538,
+				539,
+				540,
+				541,
+				542,
+				543,
+				544,
+				545,
+				546,
+				547,
+				548,
+				549,
+				550,
+				551,
+				552,
+				553,
+				554,
+				555,
+				556,
+				557,
+				558,
+				559,
+				560,
+				561,
+				562,
+				563,
+				564,
+				565,
+				566,
+				567,
+				568,
+				569,
+				570,
+				571,
+				572,
+				573,
+				574,
+				575,
+				576,
+				577,
+				578,
+				579,
+				580,
+				581,
+				582,
+				583,
+				584,
+				585,
+				586,
+				587,
+				588,
+				589,
+				590,
+				591,
+				592,
+				593,
+				594,
+				595,
+				596,
+				597,
+				598,
+				599,
+				600,
+				601,
+				602,
+				603,
+				604,
+				605,
+				606,
+				607,
+				608,
+				609,
+				610,
+				611,
+				612,
+				613,
+				614,
+				615,
+				616,
+				617,
+				618,
+				619,
+				620,
+				621,
+				622,
+				623,
+				624,
+				625,
+				626,
+				627,
+				628,
+				629,
+				630,
+				631,
+				632,
+				633,
+				634,
+				635,
+				636,
+				637,
+				638,
+				639,
+				640,
+				641,
+				642,
+				643,
+				644,
+				645,
+				646,
+				647,
+				648,
+				649,
+				650,
+				651,
+				652,
+				653,
+				654,
+				655,
+				656,
+				657,
+				658,
+				659,
+				660,
+				661,
+				662,
+				663,
+				664,
+				665,
+				666,
+				667,
+				668,
+				669,
+				670,
+				671,
+				672,
+				673,
+				674,
+				675,
+				676,
+				677,
+				678,
+				679,
+				680,
+				681,
+				682,
+				683,
+				684,
+				685,
+				686,
+				687,
+				688,
+				689,
+				690,
+				691,
+				692,
+				693,
+				694,
+				695,
+				696,
+				697,
+				698,
+				699,
+				700,
+				701,
+				702
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1000 - A+B/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1001 - A-B/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1002 - \u1110\u1165\u1105\u1166\u11ba/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1003 - \u1111\u1175\u1107\u1169\u1102\u1161\u110e\u1175 \u1112\u1161\u11b7\u1109\u116e/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1004 - \u110b\u1165\u1105\u1175\u11ab \u110b\u116a\u11bc\u110c\u1161/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1005 - ACM Craft/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1006 - \u1109\u1173\u11b8\u1100\u1167\u11a8\u110c\u1161 \u110e\u1169\u1105\u1161\u1100\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1008 - A\uff0fB/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1010 - \u1103\u1161\u1105\u1175 \u1102\u1169\u11c2\u1100\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1011 - Fly me to the Alpha Centauri/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1012 - \u110b\u1172\u1100\u1175\u1102\u1169\u11bc \u1107\u1162\u110e\u116e/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1014 - \u110f\u1165\u11ab\u1102\u1175\u11bc/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1015 - \u1109\u116e\u110b\u1167\u11af \u110c\u1165\u11bc\u1105\u1167\u11af/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1016 - \u110c\u1166\u1100\u1169\u11b8 \u3134\u3134 \u1109\u116e/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1018 - \u110e\u1166\u1109\u1173\u1111\u1161\u11ab \u1103\u1161\u1109\u1175 \u110e\u1175\u11af\u1112\u1161\u1100\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1019 - \u110e\u1162\u11a8 \u1111\u1166\u110b\u1175\u110c\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1021 - \u1112\u116c\u110c\u1165\u11ab\u1112\u1161\u1102\u1173\u11ab \u110f\u1172/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1024 - \u1109\u116e\u110b\u1167\u11af\u110b\u1174 \u1112\u1161\u11b8/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1026 - \u1107\u1169\u1106\u116e\u11af/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1037 - \u110b\u1163\u11a8\u1109\u116e/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1038 - \u1100\u1161\u11b7\u1109\u1169\u1112\u1161\u1102\u1173\u11ab \u1109\u116e/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1043 - \u1100\u1165\u110c\u1175\u11ba\u1106\u1161\u11af/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1049 - \u1100\u1175\u1110\u1161\u110c\u116e\u11af/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1057 - \u1110\u1169\u1102\u1165\u1106\u1165\u11ab\u1110\u1173/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1059 - \u1109\u116e2/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1065 - \u1112\u1161\u11ab\u1109\u116e/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1074 - Z/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1085 - \u110c\u1175\u11a8\u1109\u1161\u1100\u1161\u11a8\u1112\u1167\u11bc\u110b\u1166\u1109\u1165 \u1110\u1161\u11af\u110e\u116e\u11af/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1094 - \u1106\u1161\u11a8\u1103\u1162\u1100\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1106 - \u1112\u1169\u1110\u1166\u11af/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1110 - \u1103\u1165\u1112\u1161\u1100\u1175 \u1109\u1161\u110b\u1175\u110f\u1173\u11af/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1120 - \u1106\u116e\u11ab\u110c\u1161\u110b\u1167\u11af/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1145 - \u110c\u1165\u11a8\u110b\u1165\u1103\u1169 \u1103\u1162\u1107\u116e\u1107\u116e\u11ab\u110b\u1174 \u1107\u1162\u1109\u116e/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1146 - \u110c\u1175\u1100\u1173\u110c\u1162\u1100\u1173 \u1109\u1165\u1100\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1149 - RGB\u1100\u1165\u1105\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1152 - \u1103\u1161\u11ab\u110b\u1165\u110b\u1174 \u1100\u1162\u1109\u116e/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1157 - \u1103\u1161\u11ab\u110b\u1165 \u1100\u1169\u11bc\u1107\u116e/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1158 - \u110b\u116d\u1109\u1166\u1111\u116e\u1109\u1173 \u1106\u116e\u11ab\u110c\u1166/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1167 - \u1110\u1173\u1105\u1175\u110b\u1174 \u110c\u1175\u1105\u1173\u11b7/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1170 - \u1105\u1175\u1106\u1169\u110f\u1165\u11ab/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1181 - \u1103\u1161\u11ab\u110b\u1165 \u110c\u1165\u11bc\u1105\u1167\u11af/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1182 - \u1107\u116e\u1107\u116e\u11ab\u1109\u116e\u110b\u1167\u11af\u110b\u1174 \u1112\u1161\u11b8/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1193 - \u1107\u116e\u11ab\u1109\u116e\u110e\u1161\u11bd\u1100\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1197 - \u110e\u116c\u1109\u1169 \u1109\u1173\u1111\u1162\u1102\u1175\u11bc \u1110\u1173\u1105\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1205 - \u1103\u1173\u11bc\u1109\u116e \u1100\u116e\u1112\u1161\u1100\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1208 - \u1107\u116e\u1107\u116e\u11ab\u1109\u116e\u110b\u1167\u11af\u110b\u1174 \u1112\u1161\u11b8 2/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1212 - 8\u110c\u1175\u11ab\u1109\u116e 2\u110c\u1175\u11ab\u1109\u116e/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1213 - \u1111\u1162\u11af\u1105\u1175\u11ab\u1103\u1173\u1105\u1169\u11b7 \u1106\u1161\u11ab\u1103\u1173\u11af\u1100\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1237 - \u110c\u1165\u11bc\u314b\u1107\u1165\u11a8\u314b/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1238 - \u1111\u1161\u1110\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1244 - \u1109\u1173\u110b\u1171\u110e\u1175 \u110f\u1167\u1100\u1169 \u1101\u1173\u1100\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1254 - \u1111\u1162\u11af\u1105\u1175\u11ab\u1103\u1173\u1105\u1169\u11b7 \u1106\u1161\u11ab\u1103\u1173\u11af\u1100\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1256 - \u1109\u1161\u110c\u1165\u11ab/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1259 - \u1111\u1162\u11af\u1105\u1175\u11ab\u1103\u1173\u1105\u1169\u11b7\u1109\u116e/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1260 - DFS\u110b\u116a BFS/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1261 - \u110b\u1161\u11af\u1100\u1169\u1109\u1173\u1111\u1161\u11ba/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1269 - \u1103\u1162\u110e\u1175\u11bc \u110e\u1161\u110c\u1175\u11b8\u1112\u1161\u11b8/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1275 - \u110f\u1165\u1111\u1175\u1109\u116d\u11b82/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1292 - \u1109\u1171\u11b8\u1100\u1166 \u1111\u116e\u1102\u1173\u11ab \u1106\u116e\u11ab\u110c\u1166/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1297 - TV \u110f\u1173\u1100\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1300 - K\u1107\u1165\u11ab\u110d\u1162 \u1109\u116e/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1302 - \u1107\u1166\u1109\u1173\u1110\u1173\u1109\u1166\u11af\u1105\u1165/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1309 - \u1103\u1169\u11bc\u1106\u116e\u11af\u110b\u116f\u11ab/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1316 - \u1100\u1173\u1105\u116e\u11b8 \u1103\u1161\u11ab\u110b\u1165 \u110e\u1166\u110f\u1165/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1328 - \u1100\u1169\u110e\u1173\u11bc \u1107\u1175\u11af\u1103\u1175\u11bc/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1330 - \u1103\u116e \u1109\u116e \u1107\u1175\u1100\u116d\u1112\u1161\u1100\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1339 - \u1103\u1161\u11ab\u110b\u1165 \u1109\u116e\u1112\u1161\u11a8/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1365 - \u1101\u1169\u110b\u1175\u11ab \u110c\u1165\u11ab\u1100\u1175\u11ba\u110c\u116e\u11af/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1389 - \u110f\u1166\u1107\u1175\u11ab \u1107\u1166\u110b\u1175\u110f\u1165\u11ab\u110b\u1174 6\u1103\u1161\u11ab\u1100\u1168 \u1107\u1165\u11b8\u110e\u1175\u11a8/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1395 - \u1109\u1173\u110b\u1171\u110e\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1406 - \u110b\u1166\u1103\u1175\u1110\u1165/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1415 - \u1109\u1161\u1110\u1161\u11bc/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1427 - \u1109\u1169\u1110\u1173\u110b\u1175\u11ab\u1109\u1161\u110b\u1175\u1103\u1173/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1436 - \u110b\u1167\u11bc\u1112\u116a\u1100\u1161\u11b7\u1103\u1169\u11a8 \u1109\u116d\u11b7/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1439 - \u1103\u1171\u110c\u1175\u11b8\u1100\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1449 - \u1109\u116e\u1105\u1175\u1100\u1169\u11bc \u1112\u1161\u11bc\u1109\u1173\u11bc/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1463 - 1\u1105\u1169 \u1106\u1161\u11ab\u1103\u1173\u11af\u1100\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1475 - \u1107\u1161\u11bc \u1107\u1165\u11ab\u1112\u1169/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1476 - \u1102\u1161\u11af\u110d\u1161 \u1100\u1168\u1109\u1161\u11ab/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1493 - \u1107\u1161\u11a8\u1109\u1173 \u110e\u1162\u110b\u116e\u1100\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1504 - \u1110\u1173\u11a8\u110c\u1165\u11bc\u1112\u1161\u11ab \u110e\u116c\u1103\u1161\u11ab \u1100\u1167\u11bc\u1105\u1169/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1506 - \u1100\u1167\u11bc\u110e\u1161\u11af\u1109\u1165/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1516 - \u1100\u1166\u110b\u1175\u11b7 \u1100\u1162\u1107\u1161\u11af/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1517 - \u1107\u1165\u1107\u1173\u11af\u1109\u1169\u1110\u1173/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1520 - \u1102\u1162\u1105\u1175\u1106\u1161\u11a8 \u1100\u1175\u11af/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1541 - \u110b\u1175\u11b6\u110b\u1165\u1107\u1165\u1105\u1175\u11ab \u1100\u116a\u11af\u1112\u1169/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1543 - \u1106\u116e\u11ab\u1109\u1165 \u1100\u1165\u11b7\u1109\u1162\u11a8/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1546 - \u1111\u1167\u11bc\u1100\u1172\u11ab/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1550 - 16\u110c\u1175\u11ab\u1109\u116e/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1557 - \u110c\u1166\u1100\u1169\u11b8 \u3134\u3134/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1562 - \u1100\u1168\u1103\u1161\u11ab \u1109\u116e/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1605 - \u1107\u1161\u11ab\u1107\u1169\u11a8 \u1107\u116e\u1107\u116e\u11ab\u1106\u116e\u11ab\u110c\u1161\u110b\u1167\u11af/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1620 - \u1102\u1161\u1102\u1173\u11ab\u110b\u1163 \u1111\u1169\u110f\u1166\u11ba\u1106\u1169\u11ab \u1106\u1161\u1109\u1173\u1110\u1165 \u110b\u1175\u1103\u1161\u1109\u1169\u11b7/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1629 - \u1100\u1169\u11b8\u1109\u1166\u11b7/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1644 - \u1109\u1169\u1109\u116e\u110b\u1174 \u110b\u1167\u11ab\u1109\u1169\u11a8\u1112\u1161\u11b8/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1647 - \u1103\u1169\u1109\u1175 \u1107\u116e\u11ab\u1112\u1161\u11af \u1100\u1168\u1112\u116c\u11a8/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1654 - \u1105\u1162\u11ab\u1109\u1165\u11ab \u110c\u1161\u1105\u1173\u1100\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1655 - \u1100\u1161\u110b\u116e\u11ab\u1103\u1166\u1105\u1173\u11af \u1106\u1161\u11af\u1112\u1162\u110b\u116d/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1676 - \u1111\u1162\u11a8\u1110\u1169\u1105\u1175\u110b\u1165\u11af 0\u110b\u1174 \u1100\u1162\u1109\u116e/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1697 - \u1109\u116e\u11b7\u1107\u1161\u1101\u1169\u11a8\u110c\u1175\u11af/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1699 - \u110c\u1166\u1100\u1169\u11b8\u1109\u116e\u110b\u1174 \u1112\u1161\u11b8/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1700 - \u1106\u1165\u11af\u1110\u1175\u1110\u1162\u11b8 \u1109\u1173\u110f\u1166\u110c\u116e\u11af\u1105\u1175\u11bc/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1712 - \u1109\u1169\u11ab\u110b\u1175\u11a8\u1107\u116e\u11ab\u1100\u1175\u110c\u1165\u11b7/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1713 - \u1112\u116e\u1107\u1169 \u110e\u116e\u110e\u1165\u11ab\u1112\u1161\u1100\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1717 - \u110c\u1175\u11b8\u1112\u1161\u11b8\u110b\u1174 \u1111\u116d\u1112\u1167\u11ab/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1725 - \u1112\u1175\u1109\u1173\u1110\u1169\u1100\u1173\u1105\u1162\u11b7/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1735 - \u1107\u116e\u11ab\u1109\u116e \u1112\u1161\u11b8/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1744 - \u1109\u116e \u1106\u116e\u11a9\u1100\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1748 - \u1109\u116e \u110b\u1175\u110b\u1165 \u110a\u1173\u1100\u1175 1/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1753 - \u110e\u116c\u1103\u1161\u11ab\u1100\u1167\u11bc\u1105\u1169/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1764 - \u1103\u1173\u11ae\u1107\u1169\u110c\u1161\u11b8/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1766 - \u1106\u116e\u11ab\u110c\u1166\u110c\u1175\u11b8/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1780 - \u110c\u1169\u11bc\u110b\u1175\u110b\u1174 \u1100\u1162\u1109\u116e/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1781 - \u110f\u1165\u11b8\u1105\u1161\u1106\u1167\u11ab/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1783 - \u1107\u1167\u11bc\u1103\u1173\u11ab \u1102\u1161\u110b\u1175\u1110\u1173/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1786 - \u110e\u1161\u11bd\u1100\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1788 - \u1111\u1175\u1107\u1169\u1102\u1161\u110e\u1175 \u1109\u116e\u110b\u1174 \u1112\u116a\u11a8\u110c\u1161\u11bc/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1789 - \u1109\u116e\u1103\u1173\u11af\u110b\u1174 \u1112\u1161\u11b8/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1806 - \u1107\u116e\u1107\u116e\u11ab\u1112\u1161\u11b8/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1813 - \u1102\u1169\u11ab\u1105\u1175\u1112\u1161\u11a8 \u1100\u116d\u1109\u116e/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1818 - \u110e\u1162\u11a8\u110c\u1165\u11bc\u1105\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1850 - \u110e\u116c\u1103\u1162\u1100\u1169\u11bc\u110b\u1163\u11a8\u1109\u116e/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1854 - K\u1107\u1165\u11ab\u110d\u1162 \u110e\u116c\u1103\u1161\u11ab\u1100\u1167\u11bc\u1105\u1169/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1865 - \u110b\u116f\u11b7\u1112\u1169\u11af/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1867 - \u1103\u1169\u11af\u1106\u1166\u11bc\u110b\u1175 \u110c\u1166\u1100\u1165/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1874 - \u1109\u1173\u1110\u1162\u11a8 \u1109\u116e\u110b\u1167\u11af/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1890 - \u110c\u1165\u11b7\u1111\u1173/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1904 - 01\u1110\u1161\u110b\u1175\u11af/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1912 - \u110b\u1167\u11ab\u1109\u1169\u11a8\u1112\u1161\u11b8/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1913 - \u1103\u1161\u11af\u1111\u1162\u11bc\u110b\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1914 - \u1112\u1161\u1102\u1169\u110b\u1175 \u1110\u1161\u11b8/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1915 - \u1100\u1161\u110c\u1161\u11bc \u110f\u1173\u11ab \u110c\u1165\u11bc\u1109\u1161\u1100\u1161\u11a8\u1112\u1167\u11bc/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1916 - \u110e\u116c\u1109\u1169\u1107\u1175\u110b\u116d\u11bc \u1100\u116e\u1112\u1161\u1100\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1918 - \u1112\u116e\u110b\u1171 \u1111\u116d\u1100\u1175\u1109\u1175\u11a8/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1920 - \u1109\u116e \u110e\u1161\u11bd\u1100\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1920 - \u1109\u116e \u110e\u1161\u11bd\u1100\u1175/source1.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1922 - \u1102\u1166\u1110\u1173\u110b\u116f\u110f\u1173 \u110b\u1167\u11ab\u1100\u1167\u11af/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1924 - 2007\u1102\u1167\u11ab/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1926 - \u1100\u1173\u1105\u1175\u11b7/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1927 - \u110e\u116c\u1109\u1169 \u1112\u1175\u11b8/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1929 - \u1109\u1169\u1109\u116e \u1100\u116e\u1112\u1161\u1100\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1931 - \u1112\u116c\u110b\u1174\u1109\u1175\u11af\u1107\u1162\u110c\u1165\u11bc/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1932 - \u110c\u1165\u11bc\u1109\u116e \u1109\u1161\u11b7\u1100\u1161\u11a8\u1112\u1167\u11bc/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1934 - \u110e\u116c\u1109\u1169\u1100\u1169\u11bc\u1107\u1162\u1109\u116e/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1937 - \u110b\u116d\u11a8\u1109\u1175\u11b7\u110c\u1162\u11bc\u110b\u1175 \u1111\u1161\u11ab\u1103\u1161/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1940 - \u110c\u116e\u1106\u1169\u11bc/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1965 - \u1109\u1161\u11bc\u110c\u1161\u1102\u1165\u11c2\u1100\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1966 - \u1111\u1173\u1105\u1175\u11ab\u1110\u1165 \u110f\u1172/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1967 - \u1110\u1173\u1105\u1175\u110b\u1174 \u110c\u1175\u1105\u1173\u11b7/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1969 - DNA/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1977 - \u110b\u116a\u11ab\u110c\u1165\u11ab\u110c\u1166\u1100\u1169\u11b8\u1109\u116e/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1987 - \u110b\u1161\u11af\u1111\u1161\u1107\u1166\u11ba/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1991 - \u1110\u1173\u1105\u1175 \u1109\u116e\u11ab\u1112\u116c/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01XXX/1992 - \u110f\u116f\u1103\u1173\u1110\u1173\u1105\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2003 - \u1109\u116e\u1103\u1173\u11af\u110b\u1174 \u1112\u1161\u11b8 2/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2004 - \u110c\u1169\u1112\u1161\u11b8 0\u110b\u1174 \u1100\u1162\u1109\u116e/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2010 - \u1111\u1173\u11af\u1105\u1165\u1100\u1173/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2014 - \u110c\u1165\u11ab\u1100\u116e/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2042 - \u1100\u116e\u1100\u1161\u11ab \u1112\u1161\u11b8 \u1100\u116e\u1112\u1161\u1100\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2042 - \u1100\u116e\u1100\u1161\u11ab \u1112\u1161\u11b8 \u1100\u116e\u1112\u1161\u1100\u1175/source2.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2056 - \u110c\u1161\u11a8\u110b\u1165\u11b8/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2075 - N\u1107\u1165\u11ab\u110d\u1162 \u110f\u1173\u11ab \u1109\u116e/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2096 - \u1102\u1162\u1105\u1167\u1100\u1161\u1100\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2104 - \u1107\u116e\u1107\u116e\u11ab\u1107\u1162\u110b\u1167\u11af \u1100\u1169\u1105\u1173\u1100\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2108 - \u1110\u1169\u11bc\u1100\u1168\u1112\u1161\u11a8/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2110 - \u1100\u1169\u11bc\u110b\u1172\u1100\u1175 \u1109\u1165\u11af\u110e\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2133 - \u1110\u1161\u110b\u1175\u11af \u110e\u1162\u110b\u116e\u1100\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2143 - \u1103\u116e \u1107\u1162\u110b\u1167\u11af\u110b\u1174 \u1112\u1161\u11b8/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2150 - Strongly Connected Component/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2156 - \u1111\u1169\u1103\u1169\u110c\u116e \u1109\u1175\u1109\u1175\u11a8/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2163 - \u110e\u1169\u110f\u1169\u11af\u1105\u1175\u11ba \u110c\u1161\u1105\u1173\u1100\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2164 - \u110f\u1161\u1103\u11732/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2169 - \u1105\u1169\u1107\u1169\u11ba \u110c\u1169\u110c\u1169\u11bc\u1112\u1161\u1100\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2178 - \u1106\u1175\u1105\u1169 \u1110\u1161\u11b7\u1109\u1162\u11a8/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2193 - \u110b\u1175\u110e\u1175\u11ab\u1109\u116e/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2206 - \u1107\u1167\u11a8 \u1107\u116e\u1109\u116e\u1100\u1169 \u110b\u1175\u1103\u1169\u11bc\u1112\u1161\u1100\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2212 - \u1109\u1166\u11ab\u1109\u1165/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2217 - \u1105\u1169\u1111\u1173/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2225 - \u1112\u1161\u11b8\u1107\u116e\u11ab\u1112\u1162/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2231 - \u1107\u116e\u11ab\u1112\u1162\u1112\u1161\u11b8/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2252 - \u110c\u116e\u11af \u1109\u1166\u110b\u116e\u1100\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2261 - \u1100\u1161\u110c\u1161\u11bc \u1100\u1161\u1101\u1161\u110b\u116e\u11ab \u1103\u116e \u110c\u1165\u11b7/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2263 - \u1110\u1173\u1105\u1175\u110b\u1174 \u1109\u116e\u11ab\u1112\u116c/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2268 - \u1109\u116e\u1103\u1173\u11af\u110b\u1174 \u1112\u1161\u11b8/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2272 - \u1105\u1162\u11b7\u1111\u1173/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2292 - \u1107\u1165\u11af\u110c\u1175\u11b8/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2293 - \u1103\u1169\u11bc\u110c\u1165\u11ab 1/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2294 - \u1103\u1169\u11bc\u110c\u1165\u11ab 2/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2295 - \u1109\u1166 \u1109\u116e\u110b\u1174 \u1112\u1161\u11b8/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2304 - \u110e\u1161\u11bc\u1100\u1169 \u1103\u1161\u1100\u1161\u11a8\u1112\u1167\u11bc/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2309 - \u110b\u1175\u11af\u1100\u1169\u11b8 \u1102\u1161\u11ab\u110c\u1162\u11bc\u110b\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2312 - \u1109\u116e \u1107\u1169\u11a8\u110b\u116f\u11ab\u1112\u1161\u1100\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2331 - \u1107\u1161\u11ab\u1107\u1169\u11a8\u1109\u116e\u110b\u1167\u11af/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2339 - \u1109\u1165\u11a8\u1111\u1161\u11ab \u110c\u1161\u1105\u1173\u1100\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2343 - \u1100\u1175\u1110\u1161 \u1105\u1166\u1109\u1173\u11ab/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2346 - \u1111\u116e\u11bc\u1109\u1165\u11ab \u1110\u1165\u1110\u1173\u1105\u1175\u1100\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2352 - \u1107\u1161\u11ab\u1103\u1169\u110e\u1166 \u1109\u1165\u11af\u1100\u1168/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2357 - \u110e\u116c\u1109\u1169\u11ba\u1100\u1161\u11b9\u1100\u116a \u110e\u116c\u1103\u1162\u11ba\u1100\u1161\u11b9/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2417 - \u110c\u1165\u11bc\u1109\u116e \u110c\u1166\u1100\u1169\u11b8\u1100\u1173\u11ab/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2420 - \u1109\u1161\u1111\u1161\u1105\u1175\u110b\u116f\u11af\u1103\u1173/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2438 - \u1107\u1167\u11af \u110d\u1175\u11a8\u1100\u1175 - 1/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2439 - \u1107\u1167\u11af \u110d\u1175\u11a8\u1100\u1175 - 2/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2440 - \u1107\u1167\u11af \u110d\u1175\u11a8\u1100\u1175 - 3/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2441 - \u1107\u1167\u11af \u110d\u1175\u11a8\u1100\u1175 - 4/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2442 - \u1107\u1167\u11af \u110d\u1175\u11a8\u1100\u1175 - 5/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2443 - \u1107\u1167\u11af \u110d\u1175\u11a8\u1100\u1175 - 6/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2445 - \u1107\u1167\u11af \u110d\u1175\u11a8\u1100\u1175 - 8/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2446 - \u1107\u1167\u11af \u110d\u1175\u11a8\u1100\u1175 - 9/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2447 - \u1107\u1167\u11af \u110d\u1175\u11a8\u1100\u1175 - 10/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2448 - \u1107\u1167\u11af \u110d\u1175\u11a8\u1100\u1175 - 11/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2455 - \u110c\u1175\u1102\u1173\u11bc\u1112\u1167\u11bc \u1100\u1175\u110e\u1161/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2456 - \u1102\u1161\u1102\u1173\u11ab \u1112\u1161\u11a8\u1100\u1173\u11b8\u1112\u116c\u110c\u1161\u11bc\u110b\u1175\u1103\u1161/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2467 - \u110b\u116d\u11bc\u110b\u1162\u11a8/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2468 - \u110b\u1161\u11ab\u110c\u1165\u11ab \u110b\u1167\u11bc\u110b\u1167\u11a8/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2470 - \u1103\u116e \u110b\u116d\u11bc\u110b\u1162\u11a8/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2475 - \u1100\u1165\u11b7\u110c\u1173\u11bc\u1109\u116e/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2480 - \u110c\u116e\u1109\u1161\u110b\u1171 \u1109\u1166\u1100\u1162/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2485 - \u1100\u1161\u1105\u1169\u1109\u116e/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2490 - \u110b\u1172\u11be\u1102\u1169\u11af\u110b\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2493 - \u1110\u1161\u11b8/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2501 - \u110b\u1163\u11a8\u1109\u116e \u1100\u116e\u1112\u1161\u1100\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2503 - \u1109\u116e\u11ba\u110c\u1161 \u110b\u1163\u1100\u116e/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2504 - \u1100\u116a\u11af\u1112\u1169\u110b\u1174 \u1100\u1161\u11b9/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2512 - \u110b\u1168\u1109\u1161\u11ab/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2522 - \u1107\u1167\u11af \u110d\u1175\u11a8\u1100\u1175 - 12/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2523 - \u1107\u1167\u11af \u110d\u1175\u11a8\u1100\u1175 - 13/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2525 - \u110b\u1169\u1107\u1173\u11ab \u1109\u1175\u1100\u1168/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2526 - \u1109\u1161\u110b\u1175\u110f\u1173\u11af/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2529 - \u1107\u116e\u1103\u1173\u11bc\u1112\u1169/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2530 - \u110b\u1175\u11ab\u1100\u1169\u11bc\u110c\u1175\u1102\u1173\u11bc \u1109\u1175\u1100\u1168/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2532 - \u1106\u1165\u11a8\u110b\u1175\u1109\u1161\u1109\u1173\u11af/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2538 - \u110b\u1167\u11bc\u110b\u1167\u11a8 \u1100\u116e\u1112\u1161\u1100\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2550 - \u110c\u1165\u11ab\u1100\u116e/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2553 - \u1106\u1161\u110c\u1175\u1106\u1161\u11a8 \u1111\u1162\u11a8\u1110\u1169\u1105\u1175\u110b\u1165\u11af \u1109\u116e/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2557 - Hello World/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2558 - A+B - 2/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2559 - \u1109\u116e\u110b\u1167\u11af/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2562 - \u110e\u116c\u1103\u1162\u11ba\u1100\u1161\u11b9/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2563 - \u1109\u1162\u11a8\u110c\u1169\u11bc\u110b\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2565 - \u110c\u1165\u11ab\u1100\u1175\u11ba\u110c\u116e\u11af/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2566 - \u110e\u116c\u1103\u1162\u11ba\u1100\u1161\u11b9/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2568 - \u110c\u1165\u11ab\u1100\u1175\u11ba\u110c\u116e\u11af - 2/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2569 - \u110c\u1175\u11b7\u110c\u1165\u11bc\u1105\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2576 - \u1112\u1169\u11af\u1109\u116e/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2577 - \u1109\u116e\u11ba\u110c\u1161\u110b\u1174 \u1100\u1162\u1109\u116e/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2578 - \u1107\u1175\u11bc\u1100\u1169/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2579 - \u1100\u1168\u1103\u1161\u11ab \u110b\u1169\u1105\u1173\u1100\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2580 - \u1109\u1173\u1103\u1169\u110f\u116e/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2581 - \u1109\u1169\u1109\u116e/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2588 - \u1100\u1169\u11b8\u1109\u1166\u11b7/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2606 - \u1107\u1161\u110b\u1175\u1105\u1165\u1109\u1173/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2607 - \u1107\u1175\u1109\u1173\u11ba\u1112\u1161\u11ab \u1103\u1161\u11ab\u110b\u1165/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2609 - \u110e\u116c\u1103\u1162\u1100\u1169\u11bc\u110b\u1163\u11a8\u1109\u116e\u110b\u116a \u110e\u116c\u1109\u1169\u1100\u1169\u11bc\u1107\u1162\u1109\u116e/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2618 - \u1100\u1167\u11bc\u110e\u1161\u11af\u110e\u1161/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2623 - \u110b\u1173\u11b7\u110b\u1161\u11a8\u1111\u1173\u1105\u1169\u1100\u1173\u1105\u1162\u11b7/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2630 - \u1109\u1162\u11a8\u110c\u1169\u11bc\u110b\u1175 \u1106\u1161\u11ab\u1103\u1173\u11af\u1100\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2636 - \u110e\u1175\u110c\u1173/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2638 - \u110e\u1175\u110c\u1173/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2644 - \u110e\u1169\u11ab\u1109\u116e\u1100\u1168\u1109\u1161\u11ab/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2658 - \u110c\u1175\u11a8\u1100\u1161\u11a8\u110b\u1175\u1103\u1173\u11bc\u1107\u1167\u11ab\u1109\u1161\u11b7\u1100\u1161\u11a8\u1112\u1167\u11bc\u110e\u1161\u11bd\u1100\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2659 - \u1109\u1175\u11b8\u110c\u1161\u110f\u1161\u1103\u1173 \u1106\u116e\u11ab\u110c\u1166/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2660 - \u1112\u116c\u110c\u1161\u11bc\u1108\u1169\u11b8\u1100\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2665 - \u1106\u1175\u1105\u1169\u1106\u1161\u11ab\u1103\u1173\u11af\u1100\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2667 - \u1103\u1161\u11ab\u110c\u1175\u1107\u1165\u11ab\u1112\u1169\u1107\u116e\u11c0\u110b\u1175\u1100\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2668 - \u1109\u116e\u11ba\u110c\u1161\u1100\u1169\u1105\u1173\u1100\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2669 - \u110c\u1175\u11a8\u1109\u1161\u1100\u1161\u11a8\u1112\u1167\u11bc \u1102\u1166\u1100\u1162\u110b\u1174 \u1112\u1161\u11b8\u110c\u1175\u11b8\u1112\u1161\u11b8\u110b\u1174 \u1106\u1167\u11ab\u110c\u1165\u11a8 \u1100\u116e\u1112\u1161\u1100\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2670 - \u110b\u1167\u11ab\u1109\u1169\u11a8\u1107\u116e\u1107\u116e\u11ab\u110e\u116c\u1103\u1162\u1100\u1169\u11b8/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2675 - \u1106\u116e\u11ab\u110c\u1161\u110b\u1167\u11af \u1107\u1161\u11ab\u1107\u1169\u11a8/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2693 - N\u1107\u1165\u11ab\u110d\u1162 \u110f\u1173\u11ab \u1109\u116e/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2696 - \u110c\u116e\u11bc\u110b\u1161\u11bc\u1100\u1161\u11b9 \u1100\u116e\u1112\u1161\u1100\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2720 - \u1109\u1166\u1110\u1161\u11a8\u1109\u1169 \u1109\u1161\u110c\u1161\u11bc \u1103\u1169\u11bc\u1112\u1167\u11a8/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2729 - \u110b\u1175\u110c\u1175\u11ab\u1109\u116e \u1103\u1165\u11ba\u1109\u1166\u11b7/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2739 - \u1100\u116e\u1100\u116e\u1103\u1161\u11ab/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2741 - N \u110d\u1175\u11a8\u1100\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2742 - \u1100\u1175\u110d\u1175\u11a8 N/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2747 - \u1111\u1175\u1107\u1169\u1102\u1161\u110e\u1175 \u1109\u116e/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2748 - \u1111\u1175\u1107\u1169\u1102\u1161\u110e\u1175 \u1109\u116e 2/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2749 - \u1111\u1175\u1107\u1169\u1102\u1161\u110e\u1175 \u1109\u116e 3/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2750 - \u1109\u116e \u110c\u1165\u11bc\u1105\u1167\u11af\u1112\u1161\u1100\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2751 - \u1109\u116e \u110c\u1165\u11bc\u1105\u1167\u11af\u1112\u1161\u1100\u1175 2/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2752 - \u1109\u1166\u1109\u116e\u110c\u1165\u11bc\u1105\u1167\u11af/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2753 - \u110b\u1172\u11ab\u1102\u1167\u11ab/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2757 - \u110b\u1166\u11a8\u1109\u1166\u11af/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2775 - \u1107\u116e\u1102\u1167\u1112\u116c\u110c\u1161\u11bc\u110b\u1175 \u1103\u116c\u11af\u1110\u1166\u110b\u1163/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2798 - \u1107\u1173\u11af\u1105\u1162\u11a8\u110c\u1162\u11a8/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2805 - \u1102\u1161\u1106\u116e \u110c\u1161\u1105\u1173\u1100\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2805 - \u1102\u1161\u1106\u116e \u110c\u1161\u1105\u1173\u1100\u1175/source1.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2822 - \u110c\u1165\u11b7\u1109\u116e \u1100\u1168\u1109\u1161\u11ab/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2839 - \u1109\u1165\u11af\u1110\u1161\u11bc \u1107\u1162\u1103\u1161\u11af/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2841 - \u110b\u116c\u1100\u1168\u110b\u1175\u11ab\u110b\u1174 \u1100\u1175\u1110\u1161 \u110b\u1167\u11ab\u110c\u116e/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2845 - \u1111\u1161\u1110\u1175\u1100\u1161 \u1101\u1173\u11c0\u1102\u1161\u1100\u1169 \u1102\u1161\u11ab \u1103\u1171/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2847 - \u1100\u1166\u110b\u1175\u11b7\u110b\u1173\u11af \u1106\u1161\u11ab\u1103\u1173\u11ab \u1103\u1169\u11bc\u110c\u116e\u11ab\u110b\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2869 - \u1103\u1161\u11af\u1111\u1162\u11bc\u110b\u1175\u1102\u1173\u11ab \u110b\u1169\u11af\u1105\u1161\u1100\u1161\u1100\u1169 \u1109\u1175\u11c1\u1103\u1161/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2873 - \u1105\u1169\u11af\u1105\u1165\u110f\u1169\u1109\u1173\u1110\u1165/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2884 - \u110b\u1161\u11af\u1105\u1161\u11b7 \u1109\u1175\u1100\u1168/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2887 - \u1112\u1162\u11bc\u1109\u1165\u11bc \u1110\u1165\u1102\u1165\u11af/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2908 - \u1109\u1161\u11bc\u1109\u116e/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2914 - \u110c\u1165\u110c\u1161\u11a8\u1100\u116f\u11ab/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2920 - \u110b\u1173\u11b7\u1100\u1168/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2935 - \u1109\u1169\u110b\u1173\u11b7/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2941 - \u110f\u1173\u1105\u1169\u110b\u1161\u1110\u1175\u110b\u1161 \u110b\u1161\u11af\u1111\u1161\u1107\u1166\u11ba/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2947 - \u1102\u1161\u1106\u116e \u110c\u1169\u1100\u1161\u11a8/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2959 - \u1100\u1165\u1107\u116e\u11a8\u110b\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2960 - \u110b\u1166\u1105\u1161\u1110\u1169\u1109\u1173\u1110\u1166\u1102\u1166\u1109\u1173\u110b\u1174 \u110e\u1166/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2993 - \u1109\u1166 \u1107\u116e\u1107\u116e\u11ab/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "02XXX/2998 - 8\u110c\u1175\u11ab\u1109\u116e/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "03XXX/3003 - \u110f\u1175\u11bc, \u110f\u1171\u11ab, \u1105\u116e\u11a8, \u1107\u1175\u1109\u116d\u11b8, \u1102\u1161\u110b\u1175\u1110\u1173, \u1111\u1169\u11ab/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "03XXX/3004 - \u110e\u1166\u1109\u1173\u1111\u1161\u11ab \u110c\u1169\u1100\u1161\u11a8/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "03XXX/3009 - \u1102\u1166 \u1107\u1165\u11ab\u110d\u1162 \u110c\u1165\u11b7/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "03XXX/3020 - \u1100\u1162\u1104\u1169\u11bc\u1107\u1165\u11af\u1105\u1166/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "03XXX/3033 - \u1100\u1161\u110c\u1161\u11bc \u1100\u1175\u11ab \u1106\u116e\u11ab\u110c\u1161\u110b\u1167\u11af/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "03XXX/3036 - \u1105\u1175\u11bc/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "03XXX/3045 - \u110b\u1175\u110c\u116e\u11bc \u110b\u1167\u11ab\u1100\u1167\u11af \u1105\u1175\u1109\u1173\u1110\u1173/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "03XXX/3046 - R2/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "03XXX/3052 - \u1102\u1161\u1106\u1165\u110c\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "03XXX/3053 - \u1110\u1162\u11a8\u1109\u1175 \u1100\u1175\u1112\u1161\u1112\u1161\u11a8/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "03XXX/3066 - \u1107\u1173\u1105\u1175\u110c\u1175\u11bc \u1109\u1175\u1100\u1173\u1102\u1165\u11af/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "03XXX/3085 - \u1109\u1161\u1110\u1161\u11bc \u1100\u1166\u110b\u1175\u11b7/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "03XXX/3665 - \u110e\u116c\u110c\u1169\u11bc \u1109\u116e\u11ab\u110b\u1171/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "03XXX/3679 - \u1103\u1161\u11ab\u1109\u116e\u11ab \u1103\u1161\u1100\u1161\u11a8\u1112\u1167\u11bc/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "03XXX/3745 - \u110b\u1169\u1105\u1173\u11b7\u1109\u1166/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "03XXX/3933 - \u1105\u1161\u1100\u1173\u1105\u1161\u11bc\u110c\u116e\u110b\u1174 \u1102\u1166 \u110c\u1166\u1100\u1169\u11b8\u1109\u116e \u110c\u1165\u11bc\u1105\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "03XXX/3986 - \u110c\u1169\u11c2\u110b\u1173\u11ab \u1103\u1161\u11ab\u110b\u1165/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "04XXX/4101 - \u110f\u1173\u1102\u1163/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "04XXX/4153 - \u110c\u1175\u11a8\u1100\u1161\u11a8\u1109\u1161\u11b7\u1100\u1161\u11a8\u1112\u1167\u11bc/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "04XXX/4195 - \u110e\u1175\u11ab\u1100\u116e \u1102\u1166\u1110\u1173\u110b\u116f\u110f\u1173/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "04XXX/4299 - AFC \u110b\u1171\u11b7\u1107\u1173\u11af\u1103\u1165\u11ab/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "04XXX/4344 - \u1111\u1167\u11bc\u1100\u1172\u11ab\u110b\u1173\u11ab \u1102\u1165\u11b7\u1100\u1166\u11bb\u110c\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "04XXX/4354 - \u1106\u116e\u11ab\u110c\u1161\u110b\u1167\u11af \u110c\u1166\u1100\u1169\u11b8/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "04XXX/4355 - \u1109\u1165\u1105\u1169\u1109\u1169/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "04XXX/4485 - \u1102\u1169\u11a8\u1109\u1162\u11a8 \u110b\u1169\u11ba \u110b\u1175\u11b8\u110b\u1173\u11ab \u110b\u1162\u1100\u1161 \u110c\u1166\u11af\u1103\u1161\u110c\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "04XXX/4504 - \u1107\u1162\u1109\u116e \u110e\u1161\u11bd\u1100\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "04XXX/4673 - \u1109\u1166\u11af\u1111\u1173 \u1102\u1165\u11b7\u1107\u1165/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "04XXX/4796 - \u110f\u1162\u11b7\u1111\u1175\u11bc/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "04XXX/4811 - \u110b\u1161\u11af\u110b\u1163\u11a8/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "04XXX/4948 - \u1107\u1166\u1105\u1173\u1110\u1173\u1105\u1161\u11bc \u1100\u1169\u11bc\u110c\u116e\u11ab/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "04XXX/4949 - \u1100\u1172\u11ab\u1112\u1167\u11bc\u110c\u1161\u11b8\u1112\u1175\u11ab \u1109\u1166\u1109\u1161\u11bc/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "04XXX/4963 - \u1109\u1165\u11b7\u110b\u1174 \u1100\u1162\u1109\u116e/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "04XXX/4999 - \u110b\u1161!/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "05XXX/5014 - \u1109\u1173\u1110\u1161\u1110\u1173\u1105\u1175\u11bc\u110f\u1173/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "05XXX/5086 - \u1107\u1162\u1109\u116e\u110b\u116a \u110b\u1163\u11a8\u1109\u116e/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "05XXX/5214 - \u1112\u116a\u11ab\u1109\u1173\u11bc/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "05XXX/5337 - \u110b\u1170\u11af\u110f\u1165\u11b7/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "05XXX/5338 - \u1106\u1161\u110b\u1175\u110f\u1173\u1105\u1169\u1109\u1169\u1111\u1173\u1110\u1173 \u1105\u1169\u1100\u1169/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "05XXX/5339 - \u110f\u1169\u11af\u1109\u1166\u11ab\u1110\u1165/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "05XXX/5347 - LCM/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "05XXX/5430 - AC/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "05XXX/5463 - \u1100\u1165\u11ab\u1111\u1169\u1103\u1169/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "05XXX/5522 - \u110f\u1161\u1103\u1173 \u1100\u1166\u110b\u1175\u11b7/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "05XXX/5525 - IOIOI/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "05XXX/5532 - \u1107\u1161\u11bc\u1112\u1161\u11a8 \u1109\u116e\u11a8\u110c\u1166/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "05XXX/5543 - \u1109\u1161\u11bc\u1100\u1173\u11ab\u1102\u1161\u11af\u1103\u1173/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "05XXX/5554 - \u1109\u1175\u11b7\u1107\u116e\u1105\u1173\u11b7 \u1100\u1161\u1102\u1173\u11ab \u1100\u1175\u11af/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "05XXX/5557 - 1\u1112\u1161\u11a8\u1102\u1167\u11ab/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "05XXX/5568 - \u110f\u1161\u1103\u1173 \u1102\u1169\u11c2\u1100\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "05XXX/5575 - \u1110\u1161\u110b\u1175\u11b7 \u110f\u1161\u1103\u1173/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "05XXX/5585 - \u1100\u1165\u1109\u1173\u1105\u1173\u11b7\u1103\u1169\u11ab/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "05XXX/5596 - \u1109\u1175\u1112\u1165\u11b7 \u110c\u1165\u11b7\u1109\u116e/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "05XXX/5622 - \u1103\u1161\u110b\u1175\u110b\u1165\u11af/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "05XXX/5635 - \u1109\u1162\u11bc\u110b\u1175\u11af/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "05XXX/5639 - \u110b\u1175\u110c\u1175\u11ab \u1100\u1165\u11b7\u1109\u1162\u11a8 \u1110\u1173\u1105\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "05XXX/5676 - \u110b\u1173\u11b7\u110c\u116e \u110f\u1169\u1103\u1175\u11bc/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "05XXX/5717 - \u1109\u1161\u11bc\u1100\u1173\u11ab\u110b\u1175\u110b\u1174 \u110e\u1175\u11ab\u1100\u116e\u1103\u1173\u11af/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "05XXX/5800 - \u1109\u1165\u11bc\u110c\u1165\u11a8 \u1110\u1169\u11bc\u1100\u1168/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "06XXX/6064 - \u110f\u1161\u110b\u1175\u11bc \u1103\u1161\u11af\u1105\u1167\u11a8/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "06XXX/6236 - \u110b\u116d\u11bc\u1103\u1169\u11ab \u1100\u116a\u11ab\u1105\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "06XXX/6549 - \u1112\u1175\u1109\u1173\u1110\u1169\u1100\u1173\u1105\u1162\u11b7\u110b\u1166\u1109\u1165 \u1100\u1161\u110c\u1161\u11bc \u110f\u1173\u11ab \u110c\u1175\u11a8\u1109\u1161\u1100\u1161\u11a8\u1112\u1167\u11bc/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "06XXX/6588 - \u1100\u1169\u11af\u1103\u1173\u1107\u1161\u1112\u1173\u110b\u1174 \u110e\u116e\u110e\u1173\u11a8/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "06XXX/6591 - \u110b\u1175\u1112\u1161\u11bc \u1109\u116d\u1103\u1161\u110b\u116e\u11ab/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "06XXX/6603 - \u1105\u1169\u1104\u1169/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "06XXX/6749 - Next in line/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "07XXX/7287 - \u1103\u1173\u11bc\u1105\u1169\u11a8/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "07XXX/7453 - \u1112\u1161\u11b8\u110b\u1175 0\u110b\u1175\u11ab \u1102\u1166 \u110c\u1165\u11bc\u1109\u116e/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "07XXX/7562 - \u1102\u1161\u110b\u1175\u1110\u1173\u110b\u1174 \u110b\u1175\u1103\u1169\u11bc/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "07XXX/7567 - \u1100\u1173\u1105\u1173\u11ba/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "07XXX/7568 - \u1103\u1165\u11bc\u110e\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "07XXX/7569 - \u1110\u1169\u1106\u1161\u1110\u1169/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "07XXX/7576 - \u1110\u1169\u1106\u1161\u1110\u1169/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "07XXX/7578 - \u1100\u1169\u11bc\u110c\u1161\u11bc/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "07XXX/7662 - \u110b\u1175\u110c\u116e\u11bc \u110b\u116e\u1109\u1165\u11ab\u1109\u116e\u11ab\u110b\u1171 \u110f\u1172/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "07XXX/7785 - \u1112\u116c\u1109\u1161\u110b\u1166 \u110b\u1175\u11bb\u1102\u1173\u11ab \u1109\u1161\u1105\u1161\u11b7/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "07XXX/7806 - GCD!/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "08XXX/8370 - Plane/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "08XXX/8393 - \u1112\u1161\u11b8/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "08XXX/8464 - Non-Squarefree Numbers/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "08XXX/8958 - OX\u110f\u1171\u110c\u1173/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "08XXX/8979 - \u110b\u1169\u11af\u1105\u1175\u11b7\u1111\u1175\u11a8/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "09XXX/9012 - \u1100\u116a\u11af\u1112\u1169/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "09XXX/9019 - DSLR/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "09XXX/9020 - \u1100\u1169\u11af\u1103\u1173\u1107\u1161\u1112\u1173\u110b\u1174 \u110e\u116e\u110e\u1173\u11a8/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "09XXX/9084 - \u1103\u1169\u11bc\u110c\u1165\u11ab/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "09XXX/9085 - \u1103\u1165\u1112\u1161\u1100\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "09XXX/9095 - 1, 2, 3 \u1103\u1165\u1112\u1161\u1100\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "09XXX/9184 - \u1109\u1175\u11ab\u1102\u1161\u1102\u1173\u11ab \u1112\u1161\u11b7\u1109\u116e \u1109\u1175\u11af\u1112\u1162\u11bc/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "09XXX/9205 - \u1106\u1162\u11a8\u110c\u116e \u1106\u1161\u1109\u1175\u1106\u1167\u11ab\u1109\u1165 \u1100\u1165\u11af\u110b\u1165\u1100\u1161\u1100\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "09XXX/9237 - \u110b\u1175\u110c\u1161\u11bc\u1102\u1175\u11b7 \u110e\u1169\u1103\u1162/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "09XXX/9248 - Suffix Array/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "09XXX/9250 - \u1106\u116e\u11ab\u110c\u1161\u110b\u1167\u11af \u110c\u1175\u11b8\u1112\u1161\u11b8 \u1111\u1161\u11ab\u1107\u1167\u11af/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "09XXX/9251 - LCS/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "09XXX/9252 - LCS 2/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "09XXX/9325 - \u110b\u1165\u11af\u1106\u1161/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "09XXX/9375 - \u1111\u1162\u1109\u1167\u11ab\u110b\u116a\u11bc \u1109\u1175\u11ab\u1112\u1162\u1107\u1175\u11ab/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "09XXX/9461 - \u1111\u1161\u1103\u1169\u1107\u1161\u11ab \u1109\u116e\u110b\u1167\u11af/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "09XXX/9465 - \u1109\u1173\u1110\u1175\u110f\u1165/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "09XXX/9466 - \u1110\u1165\u11b7 \u1111\u1173\u1105\u1169\u110c\u1166\u11a8\u1110\u1173/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "09XXX/9471 - \u1111\u1175\u1109\u1161\u1102\u1169 \u110c\u116e\u1100\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "09XXX/9498 - \u1109\u1175\u1112\u1165\u11b7 \u1109\u1165\u11bc\u110c\u1165\u11a8/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "09XXX/9506 - \u110b\u1163\u11a8\u1109\u116e\u1103\u1173\u11af\u110b\u1174 \u1112\u1161\u11b8/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "09XXX/9576 - \u110e\u1162\u11a8 \u1102\u1161\u1102\u116f\u110c\u116e\u1100\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "09XXX/9613 - GCD \u1112\u1161\u11b8/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "09XXX/9625 - BABBA/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "09XXX/9653 - \u1109\u1173\u1110\u1161\u110b\u116f\u110c\u1173 \u1105\u1169\u1100\u1169/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "09XXX/9654 - \u1102\u1161\u1107\u116e \u1112\u1161\u11b7\u1103\u1162 \u1103\u1166\u110b\u1175\u1110\u1165/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "09XXX/9655 - \u1103\u1169\u11af \u1100\u1166\u110b\u1175\u11b7/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "09XXX/9656 - \u1103\u1169\u11af \u1100\u1166\u110b\u1175\u11b7 2/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "09XXX/9659 - \u1103\u1169\u11af \u1100\u1166\u110b\u1175\u11b7 5/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "09XXX/9663 - N-Queen/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "09XXX/9735 - \u1109\u1161\u11b7\u110e\u1161 \u1107\u1161\u11bc\u110c\u1165\u11bc\u1109\u1175\u11a8 \u1111\u116e\u11af\u1100\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "09XXX/9735 - \u1109\u1161\u11b7\u110e\u1161 \u1107\u1161\u11bc\u110c\u1165\u11bc\u1109\u1175\u11a8 \u1111\u116e\u11af\u1100\u1175/source2.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "09XXX/9934 - \u110b\u116a\u11ab\u110c\u1165\u11ab \u110b\u1175\u110c\u1175\u11ab \u1110\u1173\u1105\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "09XXX/9935 - \u1106\u116e\u11ab\u110c\u1161\u110b\u1167\u11af \u1111\u1169\u11a8\u1107\u1161\u11af/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "10XXX/10026 - \u110c\u1165\u11a8\u1105\u1169\u11a8\u1109\u1162\u11a8\u110b\u1163\u11a8/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "10XXX/10039 - \u1111\u1167\u11bc\u1100\u1172\u11ab \u110c\u1165\u11b7\u1109\u116e/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "10XXX/10090 - Counting Inversions/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "10XXX/10101 - \u1109\u1161\u11b7\u1100\u1161\u11a8\u1112\u1167\u11bc \u110b\u116c\u110b\u116e\u1100\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "10XXX/10156 - \u1100\u116a\u110c\u1161/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "10XXX/10157 - \u110c\u1161\u1105\u1175\u1107\u1162\u110c\u1165\u11bc/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "10XXX/10159 - \u110c\u1165\u110b\u116e\u11af/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "10XXX/10160 - \u110b\u1161\u11b7\u1112\u1169/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "10XXX/10162 - \u110c\u1165\u11ab\u110c\u1161\u1105\u1166\u110b\u1175\u11ab\u110c\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "10XXX/10164 - \u1100\u1167\u11a8\u110c\u1161\u1109\u1161\u11bc\u110b\u1174 \u1100\u1167\u11bc\u1105\u1169/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "10XXX/10166 - \u1100\u116a\u11ab\u110c\u116e\u11bc\u1109\u1165\u11a8/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "10XXX/10170 - NFC West vs North/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "10XXX/10171 - \u1100\u1169\u110b\u1163\u11bc\u110b\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "10XXX/10172 - \u1100\u1162/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "10XXX/10179 - \u110f\u116e\u1111\u1169\u11ab/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "10XXX/10250 - ACM \u1112\u1169\u1110\u1166\u11af/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "10XXX/10430 - \u1102\u1161\u1106\u1165\u110c\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "10XXX/10448 - \u110b\u1172\u1105\u1166\u110f\u1161 \u110b\u1175\u1105\u1169\u11ab/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "10XXX/10451 - \u1109\u116e\u11ab\u110b\u1167\u11af \u1109\u1161\u110b\u1175\u110f\u1173\u11af/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "10XXX/10610 - 30/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "10XXX/10699 - \u110b\u1169\u1102\u1173\u11af \u1102\u1161\u11af\u110d\u1161/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "10XXX/10707 - \u1109\u116e\u1103\u1169\u110b\u116d\u1100\u1173\u11b7/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "10XXX/10718 - We love kriii/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "10XXX/10768 - \u1110\u1173\u11a8\u1107\u1167\u11af\u1112\u1161\u11ab \u1102\u1161\u11af/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "10XXX/10773 - \u110c\u1166\u1105\u1169/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "10XXX/10775 - \u1100\u1169\u11bc\u1112\u1161\u11bc/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "10XXX/10797 - 10\u1107\u116e\u110c\u1166/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "10XXX/10798 - \u1109\u1166\u1105\u1169\u110b\u1175\u11b0\u1100\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "10XXX/10799 - \u1109\u116c\u1106\u1161\u11a8\u1103\u1162\u1100\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "10XXX/10803 - \u110c\u1165\u11bc\u1109\u1161\u1100\u1161\u11a8\u1112\u1167\u11bc \u1106\u1161\u11ab\u1103\u1173\u11af\u1100\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "10XXX/10809 - \u110b\u1161\u11af\u1111\u1161\u1107\u1166\u11ba \u110e\u1161\u11bd\u1100\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "10XXX/10814 - \u1102\u1161\u110b\u1175\u1109\u116e\u11ab \u110c\u1165\u11bc\u1105\u1167\u11af/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "10XXX/10815 - \u1109\u116e\u11ba\u110c\u1161 \u110f\u1161\u1103\u1173/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "10XXX/10816 - \u1109\u116e\u11ba\u110c\u1161 \u110f\u1161\u1103\u1173 2/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "10XXX/10817 - \u1109\u1166 \u1109\u116e/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "10XXX/10818 - \u110e\u116c\u1109\u1169,\u110e\u116c\u1103\u1162/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "10XXX/10819 - \u110e\u1161\u110b\u1175\u1105\u1173\u11af \u110e\u116c\u1103\u1162\u1105\u1169/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "10XXX/10824 - \u1102\u1166 \u1109\u116e/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "10XXX/10825 - \u1100\u116e\u11a8\u110b\u1167\u11bc\u1109\u116e/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "10XXX/10828 - \u1109\u1173\u1110\u1162\u11a8/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "10XXX/10830 - \u1112\u1162\u11bc\u1105\u1167\u11af \u110c\u1166\u1100\u1169\u11b8/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "10XXX/10833 - \u1109\u1161\u1100\u116a/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "10XXX/10844 - \u1109\u1171\u110b\u116e\u11ab \u1100\u1168\u1103\u1161\u11ab \u1109\u116e/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "10XXX/10845 - \u110f\u1172/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "10XXX/10859 - \u1103\u1171\u110c\u1175\u11b8\u110b\u1165\u110c\u1175\u11ab \u1109\u1169\u1109\u116e/Untitled1.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "10XXX/10866 - \u1103\u1166\u11a8/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "10XXX/10867 - \u110c\u116e\u11bc\u1107\u1169\u11a8 \u1108\u1162\u1100\u1169 \u110c\u1165\u11bc\u1105\u1167\u11af\u1112\u1161\u1100\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "10XXX/10868 - \u110e\u116c\u1109\u1169\u11ba\u1100\u1161\u11b9/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "10XXX/10869 - \u1109\u1161\u110e\u1175\u11a8\u110b\u1167\u11ab\u1109\u1161\u11ab/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "10XXX/10870 - \u1111\u1175\u1107\u1169\u1102\u1161\u110e\u1175 \u1109\u116e 5/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "10XXX/10871 - X\u1107\u1169\u1103\u1161 \u110c\u1161\u11a8\u110b\u1173\u11ab \u1109\u116e/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "10XXX/10872 - \u1111\u1162\u11a8\u1110\u1169\u1105\u1175\u110b\u1165\u11af/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "10XXX/10926 - XXX/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "10XXX/10942 - \u1111\u1162\u11af\u1105\u1175\u11ab\u1103\u1173\u1105\u1169\u11b7/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "10XXX/10950 - A+B - 3/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "10XXX/10951 - A+B - 4/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "10XXX/10952 - A+B - 5/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "10XXX/10953 - A+B - 6/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "10XXX/10971 - \u110b\u116c\u1111\u1161\u11ab\u110b\u116f\u11ab \u1109\u116e\u11ab\u1112\u116c 2/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "10XXX/10972 - \u1103\u1161\u110b\u1173\u11b7 \u1109\u116e\u11ab\u110b\u1167\u11af/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "10XXX/10973 - \u110b\u1175\u110c\u1165\u11ab \u1109\u116e\u11ab\u110b\u1167\u11af/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "10XXX/10974 - \u1106\u1169\u1103\u1173\u11ab \u1109\u116e\u11ab\u110b\u1167\u11af/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "10XXX/10989 - \u1109\u116e \u110c\u1165\u11bc\u1105\u1167\u11af\u1112\u1161\u1100\u1175 3/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "10XXX/10994 - \u1107\u1167\u11af \u110d\u1175\u11a8\u1100\u1175 - 19/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "10XXX/10996 - \u1107\u1167\u11af \u110d\u1175\u11a8\u1100\u1175 - 21/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "10XXX/10998 - AxB/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "11XXX/11000 - \u1100\u1161\u11bc\u110b\u1174\u1109\u1175\u11af \u1107\u1162\u110c\u1165\u11bc/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "11XXX/11003 - \u110e\u116c\u1109\u1169\u11ba\u1100\u1161\u11b9 \u110e\u1161\u11bd\u1100\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "11XXX/11004 - K\u1107\u1165\u11ab\u110d\u1162 \u1109\u116e/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "11XXX/11021 - A+B - 7/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "11XXX/11022 - A+B - 8/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "11XXX/11047 - \u1103\u1169\u11bc\u110c\u1165\u11ab 0/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "11XXX/11048 - \u110b\u1175\u1103\u1169\u11bc\u1112\u1161\u1100\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "11XXX/11049 - \u1112\u1162\u11bc\u1105\u1167\u11af \u1100\u1169\u11b8\u1109\u1166\u11b7 \u1109\u116e\u11ab\u1109\u1165/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "11XXX/11050 - \u110b\u1175\u1112\u1161\u11bc \u1100\u1168\u1109\u116e 1/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "11XXX/11051 - \u110b\u1175\u1112\u1161\u11bc \u1100\u1168\u1109\u116e 2/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "11XXX/11052 - \u110f\u1161\u1103\u1173 \u1100\u116e\u1106\u1162\u1112\u1161\u1100\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "11XXX/11053 - \u1100\u1161\u110c\u1161\u11bc \u1100\u1175\u11ab \u110c\u1173\u11bc\u1100\u1161\u1112\u1161\u1102\u1173\u11ab \u1107\u116e\u1107\u116e\u11ab \u1109\u116e\u110b\u1167\u11af/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "11XXX/11054 - \u1100\u1161\u110c\u1161\u11bc \u1100\u1175\u11ab \u1107\u1161\u110b\u1175\u1110\u1169\u1102\u1175\u11a8 \u1107\u116e\u1107\u116e\u11ab \u1109\u116e\u110b\u1167\u11af/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "11XXX/11055 - \u1100\u1161\u110c\u1161\u11bc \u110f\u1173\u11ab \u110c\u1173\u11bc\u1100\u1161 \u1107\u116e\u1107\u116e\u11ab \u1109\u116e\u110b\u1167\u11af/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "11XXX/11057 - \u110b\u1169\u1105\u1173\u1106\u1161\u11a8 \u1109\u116e/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "11XXX/11060 - \u110c\u1165\u11b7\u1111\u1173 \u110c\u1165\u11b7\u1111\u1173/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "11XXX/11066 - \u1111\u1161\u110b\u1175\u11af \u1112\u1161\u11b8\u110e\u1175\u1100\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "11XXX/11098 - \u110e\u1166\u11af\u1109\u1175\u1105\u1173\u11af \u1103\u1169\u110b\u116a\u110c\u116f!/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "11XXX/11170 - 0\u110b\u1174 \u1100\u1162\u1109\u116e/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "11XXX/11279 - \u110e\u116c\u1103\u1162 \u1112\u1175\u11b8/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "11XXX/11286 - \u110c\u1165\u11af\u1103\u1162\u11ba\u1100\u1161\u11b9 \u1112\u1175\u11b8/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "11XXX/11375 - \u110b\u1167\u11af\u1112\u1167\u11af\u1100\u1161\u11bc\u1112\u1169/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "11XXX/11382 - \u1101\u1169\u1106\u1161 \u110c\u1165\u11bc\u1106\u1175\u11ab/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "11XXX/11399 - ATM/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "11XXX/11401 - \u110b\u1175\u1112\u1161\u11bc \u1100\u1168\u1109\u116e 3/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "11XXX/11403 - \u1100\u1167\u11bc\u1105\u1169 \u110e\u1161\u11bd\u1100\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "11XXX/11404 - \u1111\u1173\u11af\u1105\u1169\u110b\u1175\u1103\u1173/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "11XXX/11437 - LCA/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "11XXX/11438 - LCA 2/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "11XXX/11444 - \u1111\u1175\u1107\u1169\u1102\u1161\u110e\u1175 \u1109\u116e 6/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "11XXX/11502 - \u1109\u1166 \u1100\u1162\u110b\u1174 \u1109\u1169\u1109\u116e \u1106\u116e\u11ab\u110c\u1166/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "11XXX/11505 - \u1100\u116e\u1100\u1161\u11ab \u1100\u1169\u11b8 \u1100\u116e\u1112\u1161\u1100\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "11XXX/11557 - Yangjojang of The Year/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "11XXX/11576 - Base Conversion/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "11XXX/11650 - \u110c\u116a\u1111\u116d \u110c\u1165\u11bc\u1105\u1167\u11af\u1112\u1161\u1100\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "11XXX/11651 - \u110c\u116a\u1111\u116d \u110c\u1165\u11bc\u1105\u1167\u11af\u1112\u1161\u1100\u1175 2/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "11XXX/11652 - \u110f\u1161\u1103\u1173/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "11XXX/11653 - \u1109\u1169\u110b\u1175\u11ab\u1109\u116e\u1107\u116e\u11ab\u1112\u1162/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "11XXX/11654 - \u110b\u1161\u1109\u1173\u110f\u1175 \u110f\u1169\u1103\u1173/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "11XXX/11656 - \u110c\u1165\u11b8\u1106\u1175\u1109\u1161 \u1107\u1162\u110b\u1167\u11af/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "11XXX/11658 - \u1100\u116e\u1100\u1161\u11ab \u1112\u1161\u11b8 \u1100\u116e\u1112\u1161\u1100\u1175 3/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "11XXX/11659 - \u1100\u116e\u1100\u1161\u11ab \u1112\u1161\u11b8 \u1100\u116e\u1112\u1161\u1100\u1175 4/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "11XXX/11660 - \u1100\u116e\u1100\u1161\u11ab \u1112\u1161\u11b8 \u1100\u116e\u1112\u1161\u1100\u1175 5/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "11XXX/11687 - \u1111\u1162\u11a8\u1110\u1169\u1105\u1175\u110b\u1165\u11af 0\u110b\u1174 \u1100\u1162\u1109\u116e/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "11XXX/11689 - GCD(n, k) = 1/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "11XXX/11718 - \u1100\u1173\u1103\u1162\u1105\u1169 \u110e\u116e\u11af\u1105\u1167\u11a8\u1112\u1161\u1100\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "11XXX/11719 - \u1100\u1173\u1103\u1162\u1105\u1169 \u110e\u116e\u11af\u1105\u1167\u11a8\u1112\u1161\u1100\u1175 2/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "11XXX/11720 - \u1109\u116e\u11ba\u110c\u1161\u110b\u1174 \u1112\u1161\u11b8/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "11XXX/11722 - \u1100\u1161\u110c\u1161\u11bc \u1100\u1175\u11ab \u1100\u1161\u11b7\u1109\u1169\u1112\u1161\u1102\u1173\u11ab \u1107\u116e\u1107\u116e\u11ab \u1109\u116e\u110b\u1167\u11af/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "11XXX/11723 - \u110c\u1175\u11b8\u1112\u1161\u11b8/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "11XXX/11724 - \u110b\u1167\u11ab\u1100\u1167\u11af \u110b\u116d\u1109\u1169\u110b\u1174 \u1100\u1162\u1109\u116e/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "11XXX/11725 - \u1110\u1173\u1105\u1175\u110b\u1174 \u1107\u116e\u1106\u1169 \u110e\u1161\u11bd\u1100\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "11XXX/11726 - 2xn \u1110\u1161\u110b\u1175\u11af\u1105\u1175\u11bc/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "11XXX/11727 - 2xn \u1110\u1161\u110b\u1175\u11af\u1105\u1175\u11bc 2/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "11XXX/11728 - \u1107\u1162\u110b\u1167\u11af \u1112\u1161\u11b8\u110e\u1175\u1100\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "11XXX/11729 - \u1112\u1161\u1102\u1169\u110b\u1175 \u1110\u1161\u11b8 \u110b\u1175\u1103\u1169\u11bc \u1109\u116e\u11ab\u1109\u1165/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "11XXX/11758 - CCW/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "11XXX/11779 - \u110e\u116c\u1109\u1169\u1107\u1175\u110b\u116d\u11bc \u1100\u116e\u1112\u1161\u1100\u1175 2/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "11XXX/11866 - \u110b\u116d\u1109\u1166\u1111\u116e\u1109\u1173 \u1106\u116e\u11ab\u110c\u1166 0/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "11XXX/11931 - \u1109\u116e \u110c\u1165\u11bc\u1105\u1167\u11af\u1112\u1161\u1100\u1175 4/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "11XXX/11942 - \u1100\u1169\u1105\u1167\u1103\u1162\u1102\u1173\u11ab \u1109\u1161\u1105\u1161\u11bc\u110b\u1175\u11b8\u1102\u1175\u1103\u1161/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "11XXX/11943 - \u1111\u1161\u110b\u1175\u11af \u110b\u1169\u11b1\u1100\u1175\u1100\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "11XXX/11948 - \u1100\u116a\u1106\u1169\u11a8\u1109\u1165\u11ab\u1110\u1162\u11a8/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "11XXX/11985 - \u110b\u1169\u1105\u1166\u11ab\u110c\u1175 \u110e\u116e\u11af\u1112\u1161/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "12XXX/12014 - \u110c\u116e\u1109\u1175\u11a8/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "12XXX/12015 - \u1100\u1161\u110c\u1161\u11bc \u1100\u1175\u11ab \u110c\u1173\u11bc\u1100\u1161\u1112\u1161\u1102\u1173\u11ab \u1107\u116e\u1107\u116e\u11ab \u1109\u116e\u110b\u1167\u11af/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "12XXX/12026 - BOJ \u1100\u1165\u1105\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "12XXX/12738 - \u1100\u1161\u110c\u1161\u11bc \u1100\u1175\u11ab \u110c\u1173\u11bc\u1100\u1161\u1112\u1161\u1102\u1173\u11ab \u1107\u116e\u1107\u116e\u11ab \u1109\u116e\u110b\u1167\u11af 3/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "12XXX/12849 - \u1107\u1169\u11ab\u1103\u1162 \u1109\u1161\u11ab\u110e\u1162\u11a8/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "12XXX/12851 - \u1109\u116e\u11b7\u1107\u1161\u1101\u1169\u11a8\u110c\u1175\u11af 2/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "12XXX/12852 - 1\u1105\u1169 \u1106\u1161\u11ab\u1103\u1173\u11af\u1100\u1175 2/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "12XXX/12852 - 1\u1105\u1169 \u1106\u1161\u11ab\u1103\u1173\u11af\u1100\u1175 2/source1.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "12XXX/12865 - \u1111\u1167\u11bc\u1107\u1165\u11b7\u1112\u1161\u11ab \u1107\u1162\u1102\u1161\u11bc/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "12XXX/12920 - \u1111\u1167\u11bc\u1107\u1165\u11b7\u1112\u1161\u11ab \u1107\u1162\u1102\u1161\u11bc 2/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "13XXX/13022 - \u1102\u1173\u11a8\u1103\u1162\u110b\u116a \u110b\u1169\u11af\u1107\u1161\u1105\u1173\u11ab \u1103\u1161\u11ab\u110b\u1165/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "13XXX/13164 - \u1112\u1162\u11bc\u1107\u1169\u11a8 \u110b\u1172\u110e\u1175\u110b\u116f\u11ab/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "13XXX/13172 - \u03a3/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "13XXX/13241 - \u110e\u116c\u1109\u1169\u1100\u1169\u11bc\u1107\u1162\u1109\u116e/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "13XXX/13275 - \u1100\u1161\u110c\u1161\u11bc \u1100\u1175\u11ab \u1111\u1162\u11af\u1105\u1175\u11ab\u1103\u1173\u1105\u1169\u11b7 \u1107\u116e\u1107\u116e\u11ab \u1106\u116e\u11ab\u110c\u1161\u110b\u1167\u11af/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "13XXX/13301 - \u1110\u1161\u110b\u1175\u11af \u110c\u1161\u11bc\u1109\u1175\u11a8\u1106\u116e\u11af/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "13XXX/13305 - \u110c\u116e\u110b\u1172\u1109\u1169/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "13XXX/13458 - \u1109\u1175\u1112\u1165\u11b7 \u1100\u1161\u11b7\u1103\u1169\u11a8/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "13XXX/13549 - \u1109\u116e\u11b7\u1107\u1161\u1101\u1169\u11a8\u110c\u1175\u11af 3/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "13XXX/13711 - LCS 4/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "13XXX/13866 - \u1110\u1175\u11b7 \u1102\u1161\u1102\u116e\u1100\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "13XXX/13904 - \u1100\u116a\u110c\u1166/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "13XXX/13977 - \u110b\u1175\u1112\u1161\u11bc \u1100\u1168\u1109\u116e\u110b\u116a \u110f\u116f\u1105\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "14XXX/14003 - \u1100\u1161\u110c\u1161\u11bc \u1100\u1175\u11ab \u110c\u1173\u11bc\u1100\u1161\u1112\u1161\u1102\u1173\u11ab \u1107\u116e\u1107\u116e\u11ab \u1109\u116e\u110b\u1167\u11af 5/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "14XXX/14264 - \u110c\u1165\u11bc\u110b\u1172\u11a8\u1100\u1161\u11a8\u1112\u1167\u11bc\u1100\u116a \u1109\u1161\u11b7\u1100\u1161\u11a8\u1112\u1167\u11bc/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "14XXX/14427 - \u1109\u116e\u110b\u1167\u11af\u1100\u116a \u110f\u116f\u1105\u1175 15/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "14XXX/14428 - \u1109\u116e\u110b\u1167\u11af\u1100\u116a \u110f\u116f\u1105\u1175 16/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "14XXX/14438 - \u1109\u116e\u110b\u1167\u11af\u1100\u116a \u110f\u116f\u1105\u1175 17/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "14XXX/14444 - \u1100\u1161\u110c\u1161\u11bc \u1100\u1175\u11ab \u1111\u1162\u11af\u1105\u1175\u11ab\u1103\u1173\u1105\u1169\u11b7 \u1107\u116e\u1107\u116e\u11ab \u1106\u116e\u11ab\u110c\u1161\u110b\u1167\u11af/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "14XXX/14487 - \u110b\u116e\u11a8\u110c\u1166\u1102\u1173\u11ab \u1112\u116d\u1103\u1169\u110c\u1162\u11bc\u110b\u1175\u110b\u1163!!/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "14XXX/14494 - \u1103\u1161\u110b\u1175\u1102\u1161\u1106\u1175\u11a8\u110b\u1175 \u1106\u116f\u110b\u1166\u110b\u116d/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "14XXX/14495 - \u1111\u1175\u1107\u1169\u1102\u1161\u110e\u1175 \u1107\u1175\u1109\u1173\u1106\u116e\u1105\u1175\u1112\u1161\u11ab \u1109\u116e\u110b\u1167\u11af/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "14XXX/14500 - \u1110\u1166\u1110\u1173\u1105\u1169\u1106\u1175\u1102\u1169/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "14XXX/14501 - \u1110\u116c\u1109\u1161/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "14XXX/14502 - \u110b\u1167\u11ab\u1100\u116e\u1109\u1169/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "14XXX/14645 - \u110b\u116a\u110b\u1175\u1107\u1165\u1109\u1173 \u1107\u116e\u1105\u1173\u11bc\u1107\u116e\u1105\u1173\u11bc/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "14XXX/14652 - \u1102\u1161\u1102\u1173\u11ab \u1112\u1162\u11bc\u1107\u1169\u11a8\u1112\u1161\u11b8\u1102\u1175\u1103\u1161~/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "14XXX/14681 - \u1109\u1161\u1107\u116e\u11ab\u1106\u1167\u11ab \u1100\u1169\u1105\u1173\u1100\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "14XXX/14888 - \u110b\u1167\u11ab\u1109\u1161\u11ab\u110c\u1161 \u1101\u1175\u110b\u116f\u1102\u1165\u11c2\u1100\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "14XXX/14889 - \u1109\u1173\u1110\u1161\u1110\u1173\u110b\u116a \u1105\u1175\u11bc\u110f\u1173/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "14XXX/14916 - \u1100\u1165\u1109\u1173\u1105\u1173\u11b7\u1103\u1169\u11ab/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "14XXX/14918 - \u1103\u1165\u1112\u1161\u1100\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "14XXX/14924 - \u1111\u1169\u11ab \u1102\u1169\u110b\u1175\u1106\u1161\u11ab\u1100\u116a \u1111\u1161\u1105\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "14XXX/14938 - \u1109\u1165\u1100\u1161\u11bc\u1100\u1173\u1105\u1161\u110b\u116e\u11ab\u1103\u1173/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "15XXX/15439 - Vera and Outfits/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "15XXX/15552 - \u1108\u1161\u1105\u1173\u11ab A+B/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "15XXX/15596 - \u110c\u1165\u11bc\u1109\u116e N\u1100\u1162\u110b\u1174 \u1112\u1161\u11b8/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "15XXX/15649 - N\u1100\u116a M (1)/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "15XXX/15649 - N\u1100\u116a M (2)/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "15XXX/15651 - N\u1100\u116a M (3)/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "15XXX/15652 - N\u1100\u116a M (4)/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "15XXX/15654 - N\u1100\u116a M (5)/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "15XXX/15655 - N\u1100\u116a M (6)/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "15XXX/15656 - N\u1100\u116a M (7)/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "15XXX/15657 - N\u1100\u116a M (8)/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "15XXX/15663 - N\u1100\u116a M (9)/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "15XXX/15664 - N\u1100\u116a M (10)/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "15XXX/15665 - N\u1100\u116a M (11)/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "15XXX/15666 - N\u1100\u116a M (12)/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "15XXX/15680 - \u110b\u1167\u11ab\u1109\u1166\u1103\u1162\u1112\u1161\u11a8\u1100\u116d/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "15XXX/15686 - \u110e\u1175\u110f\u1175\u11ab \u1107\u1162\u1103\u1161\u11af/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "15XXX/15688 - \u1109\u116e \u110c\u1165\u11bc\u1105\u1167\u11af\u1112\u1161\u1100\u1175 5/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "15XXX/15700 - \u1110\u1161\u110b\u1175\u11af \u110e\u1162\u110b\u116e\u1100\u1175 4/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "15XXX/15711 - \u1112\u116a\u11ab\u1109\u1161\u11bc\u110b\u1174 \u110d\u1161\u11a8\u1101\u116e\u11bc/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "15XXX/15726 - \u110b\u1175\u110e\u1175\u11a8\u110b\u1167\u11ab\u1109\u1161\u11ab/Untitled1.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "15XXX/15727 - \u110c\u1169\u1107\u1167\u11af\u1100\u116a\u110c\u1166\u1105\u1173\u11af \u1112\u1161\u1105\u1167\u1102\u1173\u11ab\u1103\u1166 \u110c\u1169\u110c\u1161\u11bc\u110b\u1175 \u1109\u1161\u1105\u1161\u110c\u1167\u11bb\u1103\u1161/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "15XXX/15732 - \u1103\u1169\u1110\u1169\u1105\u1175 \u1109\u116e\u11b7\u1100\u1175\u1100\u1175/search.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "15XXX/15733 - \u1102\u1161\u1102\u1173\u11ab \u1102\u116e\u1100\u116e\u110b\u1175\u11ab\u1100\u1161/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "15XXX/15748 - Rest Stops/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "15XXX/15802 - \u1110\u1161\u1102\u1169\u1109\u1173/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "15XXX/15810 - \u1111\u116e\u11bc\u1109\u1165\u11ab \u1100\u1169\u11bc\u110c\u1161\u11bc/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "15XXX/15873 - \u1100\u1169\u11bc\u1107\u1162\u11a8 \u110b\u1165\u11b9\u1102\u1173\u11ab A+B/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "15XXX/15890 - \u110c\u1165\u11ab\u1100\u116e\u11a8 \u1103\u1162\u1112\u1161\u11a8\u1109\u1162\u11bc \u1111\u1173\u1105\u1169\u1100\u1173\u1105\u1162\u1106\u1175\u11bc \u1103\u1162\u1112\u116c \u1103\u1169\u11bc\u110b\u1161\u1105\u1175 \u110b\u1167\u11ab\u1112\u1161\u11b8 \u110b\u1167\u1105\u1173\u11b7 \u1103\u1162\u1112\u116c 2018/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "15XXX/15894 - \u1109\u116e\u1112\u1161\u11a8\u110b\u1173\u11ab \u110e\u1166\u110b\u1172\u11a8\u1100\u116a\u1106\u1169\u11a8 \u110b\u1175\u11b8\u1102\u1175\u1103\u1161/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "15XXX/15904 - UCPC\u1102\u1173\u11ab \u1106\u116e\u110b\u1165\u11ba\u110b\u1174 \u110b\u1163\u11a8\u110c\u1161\u110b\u1175\u11af\u1101\u1161/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "15XXX/15962 - \u1109\u1162\u1105\u1169\u110b\u116e\u11ab \u1109\u1175\u110c\u1161\u11a8/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "15XXX/15963 - CASIO/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "15XXX/15964 - \u110b\u1175\u1109\u1161\u11bc\u1112\u1161\u11ab \u1100\u1175\u1112\u1169/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "15XXX/15965 - K\u1107\u1165\u11ab\u110d\u1162 \u1109\u1169\u1109\u116e/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "15XXX/15975 - \u1112\u116a\u1109\u1161\u11af\u1111\u116d \u1100\u1173\u1105\u1175\u1100\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "15XXX/15976 - XCorr/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "15XXX/15989 - 1, 2, 3 \u1103\u1165\u1112\u1161\u1100\u1175 4/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "15XXX/15998 - 1, 2, 3 \u1103\u1165\u1112\u1161\u1100\u1175 3/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "16XXX/16134 - \u110c\u1169\u1112\u1161\u11b8 (Combination)/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "16XXX/16170 - \u110b\u1169\u1102\u1173\u11af\u110b\u1174 \u1102\u1161\u11af\u110d\u1161\u1102\u1173\u11ab/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "16XXX/16212 - \u110c\u1165\u11bc\u110b\u1167\u11af\u110c\u1165\u11a8\u110b\u1175\u11ab \u110c\u1165\u11bc\u1105\u1167\u11af/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "16XXX/16236 - \u110b\u1161\u1100\u1175 \u1109\u1161\u11bc\u110b\u1165/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "16XXX/16394 - \u1112\u1169\u11bc\u110b\u1175\u11a8\u1103\u1162\u1112\u1161\u11a8\u1100\u116d/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "16XXX/16395 - \u1111\u1161\u1109\u1173\u110f\u1161\u11af\u110b\u1174 \u1109\u1161\u11b7\u1100\u1161\u11a8\u1112\u1167\u11bc/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "16XXX/16430 - \u110c\u1166\u1105\u1175\u110b\u116a \u1110\u1169\u11b7/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "16XXX/16434 - \u1103\u1173\u1105\u1162\u1100\u1169\u11ab \u110b\u1162\u11ab \u1103\u1165\u11ab\u110c\u1165\u11ab/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "16XXX/16480 - \u110b\u116c\u1109\u1175\u11b7\u1100\u116a \u1102\u1162\u1109\u1175\u11b7\u110b\u1173\u11ab \u1109\u1161\u1105\u1161\u11bc\u110b\u1175\u11b8\u1102\u1175\u1103\u1161/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "16XXX/16481 - \u110b\u116f\u11ab \u110c\u1165\u11ab\u1106\u116e\u11ab\u1100\u1161 \u110c\u1175\u11ab\u110b\u116e/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "16XXX/16482 - \u1112\u1161\u11ab \u110c\u1165\u11b7\u110b\u1166\u1109\u1165 \u1106\u1161\u11ab\u1102\u1161\u1105\u1161!/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "16XXX/16484 - \u110c\u1161\u11a8\u1103\u1169\u1112\u1161\u110c\u1161! - \u2460/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "16XXX/16486 - \u110b\u116e\u11ab\u1103\u1169\u11bc\u110c\u1161\u11bc \u1112\u1161\u11ab \u1107\u1161\u110f\u1171/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "16XXX/16496 - \u110f\u1173\u11ab \u1109\u116e \u1106\u1161\u11ab\u1103\u1173\u11af\u1100\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "16XXX/16500 - \u1106\u116e\u11ab\u110c\u1161\u110b\u1167\u11af \u1111\u1161\u11ab\u1107\u1167\u11af/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "16XXX/16928 - \u1107\u1162\u11b7\u1100\u116a \u1109\u1161\u1103\u1161\u1105\u1175 \u1100\u1166\u110b\u1175\u11b7/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "16XXX/16953 - A \u2192 B/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "17XXX/17069 - \u1111\u1161\u110b\u1175\u1111\u1173 \u110b\u1169\u11b1\u1100\u1175\u1100\u1175 2/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "17XXX/17070 - \u1111\u1161\u110b\u1175\u1111\u1173 \u110b\u1169\u11b1\u1100\u1175\u1100\u1175 1/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "17XXX/17130 - \u1110\u1169\u1101\u1175\u1100\u1161 \u110c\u1165\u11bc\u1107\u1169\u1109\u1165\u11b7\u110b\u1166 \u110b\u1169\u11af\u1105\u1161\u110b\u1169\u11ab \u110b\u1175\u110b\u1172/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "17XXX/17144 - \u1106\u1175\u1109\u1166\u1106\u1165\u11ab\u110c\u1175 \u110b\u1161\u11ab\u1102\u1167\u11bc!/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "17XXX/17219 - \u1107\u1175\u1106\u1175\u11af\u1107\u1165\u11ab\u1112\u1169 \u110e\u1161\u11bd\u1100\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "17XXX/17256 - \u1103\u1161\u11af\u1103\u1161\u11af\u1112\u1161\u11b7\u110b\u1175 \u1102\u1165\u11b7\u110e\u1167\u1112\u1173\u11af\u1105\u1165/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "17XXX/17295 - \u110b\u1166\u11ab\u1103\u1173\u1100\u1166\u110b\u1175\u11b7 \u1109\u1173\u1111\u1169\u110b\u1175\u11af\u1105\u1165/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "17XXX/17362 - \u1109\u116e\u1112\u1161\u11a8\u110b\u1173\u11ab \u110e\u1166\u110b\u1172\u11a8\u1100\u116a\u1106\u1169\u11a8 \u110b\u1175\u11b8\u1102\u1175\u1103\u1161 2/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "17XXX/17386 - \u1109\u1165\u11ab\u1107\u116e\u11ab \u1100\u116d\u110e\u1161 1/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "17XXX/17388 - \u110b\u116a\u1100\u1173\u11af\u110b\u116a\u1100\u1173\u11af \u1109\u116e\u11bc\u1100\u1169\u1112\u1161\u11ab/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "17XXX/17404 - RGB\u1100\u1165\u1105\u1175 2/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "17XXX/17420 - \u1100\u1175\u11c1\u110f\u1169\u11ab\u110b\u1175 \u1102\u1165\u11b7\u110e\u1167\u1112\u1173\u11af\u1105\u1165/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "17XXX/17478 - \u110c\u1162\u1100\u1171\u1112\u1161\u11b7\u1109\u116e\u1100\u1161 \u1106\u116f\u11ab\u1100\u1161\u110b\u116d/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "17XXX/17496 - \u1109\u1173\u1110\u1161\u1112\u116e\u1105\u1173\u110e\u1173/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "17XXX/17509 - And the Winner Is... Ourselves/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "17XXX/17612 - \u1109\u116d\u1111\u1175\u11bc\u1106\u1169\u11af/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "17XXX/17623 - \u1100\u116a\u11af\u1112\u1169/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "17XXX/17626 -  Four Squares/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "17XXX/17828 - \u1106\u116e\u11ab\u110c\u1161\u110b\u1167\u11af \u1112\u116a\u1111\u1168/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "17XXX/17952 - \u1100\u116a\u110c\u1166\u1102\u1173\u11ab \u1101\u1173\u11c0\u1102\u1161\u110c\u1175 \u110b\u1161\u11ad\u110b\u1161/Untitled1.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "18XXX/18005 - Even or Odd/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "18XXX/18096 - \u0410\u0440\u0438\u0444\u043c\u0435\u0442\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u043c\u0430\u0433\u0438\u044f/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "18XXX/18108 - 1998\u1102\u1167\u11ab\u1109\u1162\u11bc\u110b\u1175\u11ab \u1102\u1162\u1100\u1161 \u1110\u1162\u1100\u116e\u11a8\u110b\u1166\u1109\u1165\u1102\u1173\u11ab 2541\u1102\u1167\u11ab\u1109\u1162\u11bc !/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "18XXX/18111 - \u1106\u1161\u110b\u1175\u11ab\u110f\u1173\u1105\u1162\u1111\u1173\u1110\u1173/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "18XXX/18185 - \u1105\u1161\u1106\u1167\u11ab \u1109\u1161\u1100\u1175 (Small)/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "18XXX/18186 - \u1105\u1161\u1106\u1167\u11ab \u1109\u1161\u1100\u1175 (Large)/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "18XXX/18258 - \u110f\u1172 2/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "18XXX/18301 - Rats/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "18XXX/18436 - \u1109\u116e\u110b\u1167\u11af\u1100\u116a \u110f\u116f\u1105\u1175 37/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "18XXX/18870 - \u110c\u116a\u1111\u116d \u110b\u1161\u11b8\u110e\u116e\u11a8/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "19XXX/19577 - \u1109\u116e\u1112\u1161\u11a8\u110b\u1173\u11ab \u110c\u1162\u1106\u1175\u11bb\u110b\u1165/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "19XXX/19621 - \u1112\u116c\u110b\u1174\u1109\u1175\u11af \u1107\u1162\u110c\u1165\u11bc 2/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "19XXX/19845 - \u1102\u1166\u11b7\u1106\u1169\u1102\u1166\u11b7\u1106\u1169 2020/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "19XXX/19939 - \u1107\u1161\u11a8 \u1110\u1165\u1110\u1173\u1105\u1175\u1100\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "19XXX/19941 - \u1112\u1162\u11b7\u1107\u1165\u1100\u1165 \u1107\u116e\u11ab\u1107\u1162/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "19XXX/19944 - \u1102\u1172\u1107\u1175\u110b\u1174 \u1100\u1175\u110c\u116e\u11ab\u110b\u1173\u11ab \u1106\u116f\u11af\u1101\u1161/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "20XXX/20191 - \u110c\u116e\u11af\u110b\u1175\u11b7\u1106\u1161\u11af/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "20XXX/20192 - \u1109\u116e\u11ab\u1109\u1165 \u1109\u1165\u11a9\u1100\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "20XXX/20309 - \u1110\u1173\u1105\u1175\u1111\u1173\u11af \u1109\u1169\u1110\u1173/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "20XXX/20492 - \u1109\u1166\u1100\u1173\u11b7/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "20XXX/20499 - Darius\u1102\u1175\u11b7 \u1112\u1161\u11ab\u1110\u1161 \u110b\u1161\u11ab\u1112\u1161\u11b7/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "20XXX/20528 - \u1101\u1173\u11c0\u1106\u1161\u11af\u110b\u1175\u11ba\u1100\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "20XXX/20529 - \u1100\u1161\u110c\u1161\u11bc \u1100\u1161\u1101\u1161\u110b\u116e\u11ab \u1109\u1166 \u1109\u1161\u1105\u1161\u11b7\u110b\u1174 \u1109\u1175\u11b7\u1105\u1175\u110c\u1165\u11a8 \u1100\u1165\u1105\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "20XXX/20531 - \u110b\u1175\u11ab\u1100\u1161\u11ab\u1100\u116a\u11ab\u1100\u1168/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "20XXX/20533 - \u1109\u1161\u11bc\u1100\u1173\u11b7 \u1107\u116e\u11ab\u1107\u1162/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "20XXX/20928 - \u1100\u1165\u11ae\u1102\u1173\u11ab \u1100\u1165\u11ab \u1100\u1171\u110e\u1161\u11ad\u110b\u1161/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "22XXX/22963 - 3\u110e\u1169 \u110c\u1165\u11bc\u1105\u1167\u11af/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "22XXX/22971 - \u110c\u1173\u11bc\u1100\u1161\u1112\u1161\u1102\u1173\u11ab \u1107\u116e\u1107\u116e\u11ab \u1109\u116e\u110b\u1167\u11af\u110b\u1174 \u1100\u1162\u1109\u116e/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "23XXX/23258 - \u1107\u1161\u11b7\u1111\u1167\u11ab\u110c\u1175/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "23XXX/23336 - A Sorting Problem/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "23XXX/23825 - SASA \u1106\u1169\u1112\u1167\u11bc\u110b\u1173\u11af \u1106\u1161\u11ab\u1103\u1173\u11af\u110b\u1165\u1107\u1169\u110c\u1161/source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "main.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}
