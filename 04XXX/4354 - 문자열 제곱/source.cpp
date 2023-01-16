@@ -1,35 +1,24 @@
-#include <iostream>
-#include <string>
-#include <vector>
-#include <algorithm>
-
+#include <bits/stdc++.h>
 using namespace std;
 
-string s;
-string tmp;
-string chk;
-vector<int> vec;
-
-string add(int k){
-	if(k==1)   return tmp;
-	if(k%2==0) return add(k/2)+add(k/2);
-	else	   return add(k/2)+add(k/2)+tmp;
-}
+int fail[2345678]= {0};
 
 int main(){
-	while(1){
-		vec.clear();
-		cin>>s;
-		if(s==(string)".") break;
-		for(int i=1; i*i<=s.length(); i++) if(s.length()%i==0){ vec.push_back(i); vec.push_back(s.length()/i); } // 약수 벡터 추가 
+	string s;
+	while(cin >> s){
+		if(s == ".") break;
+		s = s+s;
+		memset(fail, 0, sizeof(fail));
 		
-		sort(vec.begin(), vec.end());
+		int N = s.length();
 		
-		for(int i=0; i<vec.size(); i++){
-			chk.clear();
-			tmp = s.substr(0,vec[i]);
-			if(add(s.length()/vec[i]) == s){ printf("%d\n", s.length()/vec[i]); break; }
+		for(int i=0,j=1; j<N; j++){
+			while(i && s[i] != s[j]) i = fail[i-1];
+			if(s[i] == s[j]) fail[j] = ++i;
 		}
+		
+		int tmp = (N)-fail[N-1];
+		cout << N/tmp/2 << "\n";
 	}
 	return 0;
 }
