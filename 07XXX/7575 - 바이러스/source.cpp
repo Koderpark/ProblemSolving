@@ -52,9 +52,10 @@ int main(){
 		bool flag = true;
 		for(int b=1; b<N; b++){
 			bool res1 = kmp(comp,v[b]);
-			
 			reverse(v[b].begin(), v[b].end());
+			
 			bool res2 = kmp(comp,v[b]);
+			reverse(v[b].begin(), v[b].end());
 			
 			flag = flag && (res1 || res2);
 		}
