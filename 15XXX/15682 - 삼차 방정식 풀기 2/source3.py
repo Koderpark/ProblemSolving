@@ -1,11 +1,6 @@
 from decimal import *
 import sys
-getcontext().prec = 30
-
-def divlist(k):
-    l = []
-    for i in range(1, int(k.sqrt()+1)):
-        if()
+getcontext().prec = 3
 
 n = int(sys.stdin.readline())
 for i in range(n):

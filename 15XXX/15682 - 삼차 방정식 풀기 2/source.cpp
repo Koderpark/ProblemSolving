@@ -1,12 +1,16 @@
 #include <bits/stdc++.h>
+#pragma GCC optimize("O3")
+#pragma GCC optimize("Ofast")
+#pragma GCC optimize("unroll-loops")
 using namespace std;
 typedef __float128 fl;
 typedef long double ld;
-set<fl> s;
+set<ld> s;
 
 int main(){
 	cin.sync_with_stdio(false);
 	cin.tie(NULL);
+	cout.tie(NULL);
 	
 	cout.precision(10);
 	cout << fixed;
@@ -29,7 +33,7 @@ int main(){
 		B += A*(*s.begin());
 		C += B*(*s.begin());
 		
-		fl inner = B*B-4*A*C;
+		ld inner = B*B-4*A*C;
 		
 		if(inner >= 0){
 			s.insert((-B+sqrt(inner))/(2*A));
