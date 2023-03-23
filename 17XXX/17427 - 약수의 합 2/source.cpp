@@ -1,0 +1,16 @@
+#include <bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+
+int main(){
+	int N;
+	cin >> N;
+	
+	ll ans = 0;
+	for(int i=1; i<=N; i++){
+		ans += (i)*(N/i);
+	}
+	
+	cout << ans;
+	return 0;
+}
