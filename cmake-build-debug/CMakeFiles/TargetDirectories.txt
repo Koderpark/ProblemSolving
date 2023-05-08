@@ -1,3 +1,0 @@
-/Users/koderpark/Github/Koderpark/AlgorithmBOJ/cmake-build-debug/CMakeFiles/source.cpp.dir
-/Users/koderpark/Github/Koderpark/AlgorithmBOJ/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/koderpark/Github/Koderpark/AlgorithmBOJ/cmake-build-debug/CMakeFiles/rebuild_cache.dir
