@@ -1,18 +1,30 @@
-#include <stdio.h>
-#include <set>
-
+#include <bits/stdc++.h>
 using namespace std;
+typedef long long ll;
+
+ll arr[1234] = {0};
+map<ll,int> m;
+
 
 int main(){
-	int tmp,n;
-	set<int> s;
-	scanf("%d", &n);
-	for(int i=0; i<n; i++){
-		scanf("%d", &tmp);
-		s.insert(tmp);
+	int N;
+	cin >> N;
+	for(int i=0; i<N; i++) cin >> arr[i];
+	
+	for(int i=0; i<N; i++){
+		for(int j=0; j<N; j++){
+			m[arr[i]+arr[j]] = 1;
+		}
 	}
-	set<int>::iterator it = s.begin();
-	for(int i=0; i<n; i++){
-		printf("%d ", it[i]);
+	
+	ll ans = 0;
+	for(int i=0; i<N; i++){
+		for(int j=0; j<N; j++){
+			if(m.find(arr[j]-arr[i]) != m.end()){
+				ans = max(ans, arr[j]);
+			}
+		}
 	}
+	cout << ans;
+	return 0;
 }

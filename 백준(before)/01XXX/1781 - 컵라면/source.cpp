@@ -2,45 +2,26 @@
 using namespace std;
 typedef long long int ll;
 
-struct problem{
-	int num;
-	int dead;
-	int ramen;
-};
-
-struct cmp{
-	bool operator()(problem a, problem b){
-		if(a.dead != b.dead) return a.dead > b.dead;
-		return a.ramen < b.ramen;
-	}
-};
-
-priority_queue<problem, vector<problem>, cmp> pq;
+priority_queue<pair<int,int>> pq;
 
 int main(){
 	int n;
 	int a,b;
-	scanf("%d", &n);
+	cin >> n;
 	for(int i=1; i<=n; i++){
-		scanf("%d %d", &a, &b);
-		pq.push({i,a,b});
+		cin >> a >> b;
+		pq.push({b,a});
 	}
 	
-	
-	int time = 0;
+	int time = 1;
 	ll ans = 0;
-	while(pq.size() != ){
-		problem tmp = pq.top();
+	while(!pq.empty()){
+		auto tmp = pq.top();
 		pq.pop();
-		int num = tmp.num;
-		int dead = tmp.dead;
-		int ramen = tmp.ramen;
 		
-		
-		if(time < dead){
-			//printf("[%d]", num);
+		if(time < tmp.second){
 			time++;
-			ans += ramen;
+			ans += tmp.first;
 		}
 	}
 	

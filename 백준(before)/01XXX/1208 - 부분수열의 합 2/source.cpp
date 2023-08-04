@@ -1,63 +1,46 @@
 #include <bits/stdc++.h>
 using namespace std;
+typedef long long ll;
 
-int n;
-float x[123];
-float y[123];
+ll arr[50] = {0};
+vector<ll> A,B;
 
-int parent[123] = {0};
+ll N,S;
+ll ans = 0;
 
-struct graph{
-	float dis;
-	int a;
-	int b;
-};
-
-vector<graph> g;
-
-bool cmp(graph a, graph b){
-	if(a.dis == b.dis && a.b == b.b) return a.a < b.a;
-	else if (a.dis == b.dis) return a.b < b.b;
-	return a.dis < b.dis;
-}
-
-int find(int node){
-	if(parent[node] == node) return node;
-	return parent[node] = find(parent[node]);
-}
-
-void unionf(int a, int b){
-	a = find(a);
-	b = find(b);
-	parent[a] = b;
+void find(int s, int e, ll sum, int type){
+	if(s == e){
+		if(type == 1) A.push_back(sum);
+		if(type == 2) B.push_back(sum);
+		return;
+	}
+	
+	find(s+1, e, sum+arr[s], type);
+	find(s+1, e, sum, type);
 	return;
 }
 
-float dist(int a, int b){
-	float i = (x[a]-x[b]);
-	float j = (y[a]-y[b]);
-	float tmp = i*i + j*j;
-	return sqrt(tmp);
-}
-
 int main(){
-	scanf("%d", &n);
-	for(int i=1; i<=n; i++) scanf("%f %f", &x[i], &y[i]);
-	for(int i=1; i<=n; i++){
-		for(int j=i+1; j<=n; j++){
-			g.push_back({dist(i,j),i,j});
-		}
+	cin >> N >> S;
+	for(int i=0; i<N; i++) cin >> arr[i];
+	
+	if(N == 1 && arr[0] != S){
+		if(arr[0] != S){ cout << 0; return 0; }
+		if(arr[0] == S){ cout << 1; return 0; }
 	}
 	
-	float ans;
-	sort(g.begin(), g.end(), cmp);
-	for(int i=0; i<123;      i++) parent[i] = i;
-	for(int i=0; i<g.size(); i++){
-		if(find(g[i].a) != find(g[i].b)){
-			ans += g[i].dis;
-			unionf(g[i].a,g[i].b);
-		}
+	find(0,N/2+1,0,1);
+	find(N/2+1,N,0,2);
+	
+	sort(A.begin(), A.end());
+	sort(B.begin(), B.end());
+	
+	for(int i=0; i<A.size(); i++){
+		auto low = lower_bound(B.begin(), B.end(), S-A[i]);
+		auto up = upper_bound(B.begin(), B.end(), S-A[i]);
+		ans += (ll)(up-low);
 	}
-	printf("%f", ans);
+
+	cout << ans - (S==0);
 	return 0;
 }

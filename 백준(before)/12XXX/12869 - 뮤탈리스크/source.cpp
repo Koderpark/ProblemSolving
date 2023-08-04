@@ -1,40 +1,34 @@
 #include <bits/stdc++.h>
-#define INF 1e9 + 7
 using namespace std;
 
-int dp[67][67][67] = {0};// i,j,k scv체력이 i,j,k일때의 최소공격횟수.
+int dp[99][99][99];
 
-int chk(int x){
-	if(x<0) return 0;
-	else return x;
-}
-
-int dfs(int a,int b,int c){
-	if(a==0 && b==0 && c==0) return 1;
-	if(dp[chk(a-9)][chk(b-3)][chk(c-1)] == 0) dp[chk(a-9)][chk(b-3)][chk(c-1)] = dfs(chk(a-9), chk(b-3), chk(c-1)) + 1;
-	if(dp[chk(a-9)][chk(b-1)][chk(c-3)] == 0) dp[chk(a-9)][chk(b-1)][chk(c-3)] = dfs(chk(a-9), chk(b-1), chk(c-3)) + 1;
-	if(dp[chk(a-3)][chk(b-9)][chk(c-1)] == 0) dp[chk(a-3)][chk(b-9)][chk(c-1)] = dfs(chk(a-3), chk(b-9), chk(c-1)) + 1;
-	if(dp[chk(a-3)][chk(b-1)][chk(c-9)] == 0) dp[chk(a-3)][chk(b-1)][chk(c-9)] = dfs(chk(a-3), chk(b-1), chk(c-9)) + 1;
-	if(dp[chk(a-1)][chk(b-9)][chk(c-3)] == 0) dp[chk(a-1)][chk(b-9)][chk(c-3)] = dfs(chk(a-1), chk(b-9), chk(c-3)) + 1;
-	if(dp[chk(a-1)][chk(b-3)][chk(c-9)] == 0) dp[chk(a-1)][chk(b-3)][chk(c-9)] = dfs(chk(a-1), chk(b-3), chk(c-9)) + 1;
-	return 0;
+int find(int a, int b, int c){
+	a = max(a,0);
+	b = max(b,0);
+	c = max(c,0);
+	
+	if(dp[a][b][c] != -1) return dp[a][b][c];
+	
+	return dp[a][b][c] = min({
+		find(a-9,b-3,c-1)+1,
+		find(a-9,b-1,c-3)+1,
+		find(a-3,b-9,c-1)+1,
+		find(a-3,b-1,c-9)+1,
+		find(a-1,b-3,c-9)+1,
+		find(a-1,b-9,c-3)+1
+	});
 }
 
 int main(){
-	int n;
-	cin >> n;
-	int a[3];
-	for(int i=0; i<n; i++){
-		cin >> a[i];
-	}
-	dfs(a[0], a[1], a[2]);
+	memset(dp, -1, sizeof(dp));
+	dp[0][0][0] = 0;
 	
+	int N,arr[3] = {0};
 	
-	int maxv = 0;
-	for(int i=0; i<67; i++) for(int j=0; j<67; j++) for(int k=0; k<67; k++){
-		if(dp[i][j][k] != 0) printf("[%d %d %d] - %d \n", i,j,k, dp[i][j][k]);
-		maxv = max(maxv, dp[i][j][k]);
-	}
-	cout << maxv;
+	cin >> N;
+	for(int i=0; i<N; i++) cin >> arr[i];
+	
+	cout << find(arr[0],arr[1],arr[2]);
 	return 0;
 }
